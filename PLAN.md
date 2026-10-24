@@ -9,12 +9,13 @@
 ## Completed locally
 
 - Three working fictional workflows, real Qwen explanations, local save/resume, conditions and validation, review/consent, real browser submission, receipt, audit, and deletion.
-- 11 backend tests and 4 end-to-end tests passed. Eight axe configurations report zero selected-rule violations. TypeScript and production build passed.
-- Fresh inference recorded for all 18 source fields. Actual screenshots and a 114.92-second 1080p silent demo recorded and decoded successfully.
+- 11 backend tests and 5 end-to-end tests passed. Eight axe configurations report zero selected-rule violations. TypeScript and production build passed.
+- Fresh inference recorded for all 18 source fields. Actual screenshots and a 117.68-second 1080p silent demo recorded and decoded successfully.
 - README, dependency locks, architecture, evaluation, demo/narration draft, and pending DEV draft prepared. Services remain running on 3103/9313/9314.
-- User selected Liam for narration. The final voiceover, 29 timed subtitle cues, and 114.92-second 1080p narrated MP4 are complete and verified. No voice-tool mention appears in the spoken text or captions.
+- User selected Liam for narration. The final voiceover, 29 timed subtitle cues, and 117.68-second 1080p narrated MP4 are complete and verified. No voice-tool mention appears in the spoken text or captions.
 - User approved public GitHub publication under `ainazulfiqar99acc/AccessPath`. Source is pushed to `main`; six immutable public screenshot URLs were verified against local image hashes.
+- User requested a full visual redesign: midnight-blue theme, top navigation, horizontal form choices, rebuilt workflow styling, and responsive reading controls. Current screenshots and the 117.68-second narrated recording use that design. The frontend proxy timeout and non-JSON error handling were corrected during re-recording and covered by a regression test.
 
 ## Pending external/user checkpoints
 
-User YouTube upload and URL; verified final article and review. The GitHub repository is public; no video upload or DEV publication has occurred.
+Replacement YouTube upload for the redesigned interface and final article review. The earlier-theme user video is verified, and the review draft explicitly labels it as such. GitHub is public; DEV has not been published.

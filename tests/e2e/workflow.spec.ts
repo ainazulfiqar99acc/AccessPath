@@ -137,3 +137,17 @@ test('household form uses actual portal constraints',async({request})=>{
     expect(sent.ok()).toBe(true);expect((await sent.json()).receipt).toMatch(/^AP-/);
   }finally{await request.delete(url);}
 });
+
+test('a plain-text proxy failure shows a readable retry message and preserves the draft',async({page})=>{
+  let identifier='';
+  try{
+    await chooseScholarship(page);
+    identifier=(await page.evaluate(()=>localStorage.getItem('accesspath-draft')))!;
+    await page.route('**/api/forms/scholarship/explain',route=>route.fulfill({status:504,contentType:'text/plain',body:'Gateway Timeout'}));
+    await page.getByRole('button',{name:'Explain this form'}).click();
+    await expect(page.getByRole('main').getByRole('alert')).toContainText('Your draft is still saved. Please retry.');
+    await expect(page.getByRole('main').getByRole('alert')).not.toContainText('JSON');
+    await expect(page.getByText('Original instructions available').first()).toBeVisible();
+    expect((await page.request.get(`/api/sessions/${identifier}`)).ok()).toBe(true);
+  }finally{if(identifier)await page.request.delete(`/api/sessions/${identifier}`);}
+});

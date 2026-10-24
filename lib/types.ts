@@ -5,7 +5,11 @@ export type Explanations = {fields:{field_id:string;plain_label:string;explanati
 export type Health = {status:string;portal_url:string;model:{ready:boolean;model:string;busy:boolean;local:boolean;detail:string}};
 export async function api<T>(path:string, options?:RequestInit):Promise<T> {
   const response = await fetch(`/api${path}`, {...options, headers:{'Content-Type':'application/json',...options?.headers}});
-  const body = await response.json();
+  const text = await response.text();
+  let body;
+  try { body = JSON.parse(text); } catch {
+    throw new Error(response.ok ? 'The local service returned an unreadable response. Please retry.' : 'The local service did not respond in time. Your draft is still saved. Please retry.');
+  }
   if(!response.ok) {
     const detail = body.detail;
     throw new Error(typeof detail === 'string' ? detail : detail?.message ? `${detail.message} ${Object.values(detail.fields || {}).join(' ')}` : 'The local request could not be completed.');

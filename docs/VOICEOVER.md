@@ -16,7 +16,7 @@ Absolute final video path: `G:\Hacktoberfest-2026-Week3\03-AccessPath\demo\asset
 
 ## Verified result
 
-The final audio and video tracks both last **114.92 seconds**. The complete MP4 decoded successfully. All caption words match the spoken script, with no overlapping cues or punctuation-only cues. Final audio measured **-16.16 LUFS** integrated and **-1.43 dBTP** true peak; the PCM narration contains zero clipped samples. Representative frames were inspected for readable captions and unobstructed controls.
+The final audio and video tracks both last **117.68 seconds**. The complete MP4 decoded successfully. All caption words match the spoken script, with no overlapping cues or punctuation-only cues. Final audio measured **-16.16 LUFS** integrated and **-1.42 dBTP** true peak; the PCM narration contains zero clipped samples. Representative frames were inspected for readable captions and unobstructed controls.
 
 The speech is genuine local Kokoro-82M inference, package version 0.9.4, with the actual `am_liam.pt` voice from pinned model revision `f3ff3571791e39611d31c381e3a41a3af07b4987`. This technical record preserves reproducibility; the engine is not named in the spoken narration or video captions. A phoneme override corrects the model name Qwen while leaving the displayed word unchanged.
 
@@ -36,5 +36,7 @@ uv pip install --python .tools\kokoro\Scripts\python.exe -r demo\requirements-vo
 ```
 
 FFmpeg/FFprobe must be on PATH. The renderer downloads the pinned official model/voice when absent, caches raw scene audio locally, normalizes loudness, places each clip within its scene window, writes SRT/ASS, exports the MP4, and fully decodes it. It rejects a voice that differs from the recorded user selection. Updating the final voice requires a new explicit user selection and timeline update.
+
+For a new screen recording, first run `npm run demo:record`, then `.\.venv\Scripts\python.exe demo\retime_narration.py` before the narration command. The recorder saves real scene markers. Retiming removes only the 4.96-second initial page-loading lead-in from the current recording and positions the existing Liam clips against the resulting 117.68-second footage. Inference waiting time and successful actions remain in the demonstration.
 
 The [source repository](https://github.com/ainazulfiqar99acc/AccessPath) is public. The generated audio/video files remain local and are ignored by Git. No YouTube upload was performed.

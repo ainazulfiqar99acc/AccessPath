@@ -1,8 +1,8 @@
-> **PENDING DRAFT — not submission-ready.** The [public repository](https://github.com/ainazulfiqar99acc/AccessPath) and verified screenshot URLs are available. The completed narrated video uses the user's selected Liam voice, but no YouTube URL has been supplied. Final challenge verification and user article review remain pending. Replace this notice only after the remaining checkpoints in `PUBLISHING_CHECKLIST.md` are completed.
+> **REVIEW DRAFT — replacement video link pending.** The supplied YouTube video is verified and embedded below, but it shows the earlier interface. The user requested a complete redesign, and the current project now uses a midnight-blue theme. The refreshed 117.68-second narrated demo is complete locally. Replace the video embed after the user uploads that file; article review and manual DEV publication remain pending.
 
 Title: **The Internet Is Open to Everyone. Filling Out Its Forms Isn't.**
 
-Suggested tags: `opensource`, `ai`, `accessibility`, `webdev`. Verify the challenge's current tag and category requirements before final submission.
+Tags: `devchallenge`, `hf26challenge`, `ai`, `accessibility`.
 
 *This is a submission for the [Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady](https://dev.to/challenges/hacktoberfest-week3-2026-10-19)*
 
@@ -20,11 +20,13 @@ The repetitive burden I am trying to reduce is decoding: remembering which phras
 
 ## Demo
 
-The actual local application runs at `http://127.0.0.1:3103`. The separate fictional portal runs at `http://127.0.0.1:9314`. These addresses are local development services, not public deployments.
+The video below demonstrates the working workflow before the visual redesign. The screenshots show the current midnight-blue interface. The refreshed video will replace this embed after upload.
+
+{% youtube bom5s39cFz8 %}
 
 A genuine Playwright recording shows the full scholarship journey using **Synthetic Demo Student** and `student@example.org`. It opens the original portal, shows native validation, requests fresh local Qwen inference, compares explanations with evidence, works through preparation and questions, reviews the answers, confirms submission, reads a receipt, inspects activity, and deletes the draft.
 
-The completed narrated video is 114.92 seconds at 1920×1080, encoded as H.264/yuv420p with Liam's voice and synchronized captions beneath the recorded screen. FFmpeg decoded the complete file without errors. It is saved locally as `demo/assets/video/final_demo.mp4`. The original silent recording remains available at `demo/assets/video/demo_silent.mp4`, and the recording script is `demo/record_demo.mjs`. Public hosting and a verified YouTube link are still pending.
+The demonstration is a real browser recording with synthetic inputs and local model inference. The recording and narration scripts are included in the repository, along with measured checks and scene timings. The app runs locally; the README explains how to start its frontend, API, and separate fictional portal.
 
 These are screenshots from the actual application, hosted at verified immutable URLs in the public repository.
 
@@ -52,11 +54,11 @@ The separate fictional portal returns a real local receipt:
 
 ![The verified receipt after the real browser submitted the fictional portal](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/outcome.png)
 
-The final article still needs the user's actual YouTube URL; no video embed is invented here.
+The recording uses synthetic details throughout and sends nothing to a real organization.
 
 ## Code
 
-The complete source is public at [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath), on the `main` branch. The repository owner and public visibility were explicitly selected by the user.
+The complete source is public at [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath), on the `main` branch, under the MIT license.
 
 The repository includes a reproducible README, dependency locks, MIT license, environment example, architecture guide, measured evaluation results, backend tests, Playwright journeys, axe scans, demonstration recorder, and a publication checklist. Runtime data, credentials, dependency installations, and model weights are excluded.
 
@@ -80,9 +82,9 @@ The browser receives fixed selectors and reviewed answers. It does not receive a
 
 SQLite stores drafts on the device. The browser stores a high-entropy draft identifier and reading preferences. Audit descriptions record actions without repeating names, emails, or answers. Deletion removes the draft and its activity from the application database, with SQLite secure deletion enabled. The database is not encrypted, and deletion is not a promise about operating system backups or separately generated video files. Those limits are stated in the interface and README.
 
-Testing covers both logic and actual journeys. Eleven backend tests check extraction, conditions, validation, consent gates, expiry, replay, source changes, browser failure, audit privacy, origin rejection, and deletion. Four browser tests cover the responsive workspace, the scholarship journey with real local inference, keyboard-only community completion with save/resume, and household submission through the actual browser boundary.
+Testing covers both logic and actual journeys. Eleven backend tests check extraction, conditions, validation, consent gates, expiry, replay, source changes, browser failure, audit privacy, origin rejection, and deletion. Five browser tests cover the responsive workspace, the scholarship journey with real local inference, keyboard-only community completion with save/resume, household submission through the actual browser boundary, and recovery from a plain-text proxy failure without losing the draft.
 
-Axe scans across eight view/configuration combinations reported no violations for the selected WCAG tags after I fixed low-contrast text and a mobile navigation overflow under larger text. That is useful evidence, not WCAG certification. I have not recruited disabled participants or conducted a usability study, so I make no claim that such testing has happened.
+Axe scans across eight view/configuration combinations reported no violations for the selected WCAG tags. The redesigned interface uses a horizontal navigation bar, high-contrast blue controls, visible progress, and layouts that reflow with larger text. These developer checks are useful evidence, not WCAG certification. I have not recruited disabled participants or conducted a usability study, so I make no claim that such testing has happened.
 
 Fresh inference across the three forms took 3.33, 2.00, and 1.99 seconds respectively on a shared RTX 4090. All 18 expected fields were extracted in order, and each generated explanation passed the implemented guards. These are fixed-fixture measurements on a model already available locally; they are not cold-start benchmarks or estimates for arbitrary websites. The raw generated text, hashes, digest, timing, and counts are preserved in the evaluation JSON.
 

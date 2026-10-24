@@ -11,91 +11,91 @@
   "threads": 2,
   "model_sha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
   "voice_sha256": "c82550757ddb31308b97f30040dda8c2d609a9e2de6135848d0a948368138518",
-  "timeline_sha256": "b4e801644a7158cfffe127dbaf2871382e91a5857008099823d94521fc9b4270",
-  "video_seconds": 114.92,
-  "assembly_wall_seconds": 24.26,
+  "timeline_sha256": "aa3be9d9090279e0c4c61d1545f41a457501c8c323b6c72601d203e11b75d499",
+  "video_seconds": 117.68,
+  "assembly_wall_seconds": 22.85,
   "scenes": [
     {
       "id": "opening",
-      "start": 0.6,
-      "end": 7.5,
+      "start": 0.754,
+      "end": 7.534,
       "text": "An open opportunity can still begin with a confusing form. AccessPath makes the next step clearer.",
       "natural_seconds": 6.375,
       "tempo_factor": 1.0,
-      "audio_end": 6.975
+      "audio_end": 7.129
     },
     {
       "id": "original",
-      "start": 8.0,
-      "end": 20.3,
+      "start": 7.934,
+      "end": 20.183,
       "text": "This scholarship portal is fictional. But the extra work is familiar: legal nomenclature, matriculation classification. Simple questions, hidden behind complicated language.",
       "natural_seconds": 10.75,
       "tempo_factor": 1.0,
-      "audio_end": 18.75
+      "audio_end": 18.684
     },
     {
       "id": "evidence",
-      "start": 21.0,
-      "end": 37.9,
+      "start": 20.583,
+      "end": 36.4,
       "text": "AccessPath reads the actual labels, instructions, and limits. A local Qwen model suggests clearer wording. Your answers never go to the model. The originals stay beside every suggestion, so you can check.",
       "tts_text": "AccessPath reads the actual labels, instructions, and limits. A local [Qwen](/kw\u02c8\u025bn/) model suggests clearer wording. Your answers never go to the model. The originals stay beside every suggestion, so you can check.",
       "natural_seconds": 11.925,
       "tempo_factor": 1.0,
-      "audio_end": 32.925
+      "audio_end": 32.508
     },
     {
       "id": "preparation",
-      "start": 38.3,
-      "end": 48.2,
+      "start": 36.8,
+      "end": 44.591,
       "text": "First, get ready. Keep your student record and proof of enrollment nearby. This checklist comes from the source. Nothing is uploaded.",
       "natural_seconds": 7.525,
       "tempo_factor": 1.0,
-      "audio_end": 45.825
+      "audio_end": 44.325
     },
     {
       "id": "questions",
-      "start": 48.6,
-      "end": 66.3,
+      "start": 44.991,
+      "end": 66.852,
       "text": "Then, one manageable question at a time. Every detail here is synthetic. Required fields and valid choices still follow the original form. You can go back, or save your place and take a break.",
       "natural_seconds": 11.175,
       "tempo_factor": 1.0,
-      "audio_end": 59.775
+      "audio_end": 56.166
     },
     {
       "id": "statement",
-      "start": 67.0,
-      "end": 80.2,
+      "start": 67.252,
+      "end": 81.454,
       "text": "The same source limits apply to the statement. Requirements come from the source, without eligibility promises. The guide explains; you choose what to enter.",
       "natural_seconds": 8.925,
       "tempo_factor": 1.0,
-      "audio_end": 75.925
+      "audio_end": 76.177
     },
     {
       "id": "confirmation",
-      "start": 80.7,
-      "end": 91.3,
+      "start": 81.854,
+      "end": 92.943,
       "text": "Now review your answers. Nothing is sent until you explicitly confirm. Change an answer, and that confirmation becomes invalid. The decision stays with you.",
       "natural_seconds": 9.25,
       "tempo_factor": 1.0,
-      "audio_end": 89.95
+      "audio_end": 91.104
     },
     {
       "id": "receipt",
-      "start": 94.5,
-      "end": 102.5,
+      "start": 93.343,
+      "end": 102.052,
       "text": "A real browser fills the supported fictional portal and returns a local receipt. No real organization was contacted.",
       "natural_seconds": 7.7,
       "tempo_factor": 1.0,
-      "audio_end": 102.2
+      "audio_end": 101.043
     },
     {
       "id": "privacy",
-      "start": 103.0,
-      "end": 114.4,
+      "start": 102.452,
+      "end": 117.18,
       "text": "Activity records actions without repeating your answers. Delete the draft to remove its local data. Less decoding. A clear next step. Always your decision.",
       "natural_seconds": 9.475,
       "tempo_factor": 1.0,
-      "audio_end": 112.475
+      "audio_end": 111.927
     }
   ],
   "caption_count": 29,

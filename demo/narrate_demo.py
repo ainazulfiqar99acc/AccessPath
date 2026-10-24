@@ -211,7 +211,7 @@ def main():
     ass = ['[Script Info]', 'ScriptType: v4.00+', 'PlayResX: 1920', 'PlayResY: 1080',
            'WrapStyle: 2', '', '[V4+ Styles]',
            'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
-           'Style: Default,Arial,34,&H00FFFFFF,&H00FFFFFF,&H00223B2C,&H00223B2C,0,0,0,0,100,100,0,0,1,1,0,2,60,60,18,1',
+           'Style: Default,Arial,34,&H00FFFFFF,&H00FFFFFF,&H001E0F08,&H001E0F08,0,0,0,0,100,100,0,0,1,1,0,2,60,60,18,1',
            '', '[Events]', 'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text']
     for caption in captions:
         wrapped = r'\N'.join(textwrap.wrap(caption['text'],width=44,break_long_words=False,break_on_hyphens=False))
@@ -221,7 +221,7 @@ def main():
     # so captions never obscure controls in the actual recorded application.
     if not args.audio_only:
         vf = ("scale=1920:976:force_original_aspect_ratio=decrease,"
-              "pad=1920:1080:(ow-iw)/2:0:color=0x223B2C,"
+              "pad=1920:1080:(ow-iw)/2:0:color=0x080F1E,"
               "subtitles=demo/assets/audio/subtitles.ass")
         final_video = ROOT / 'demo/assets/video/final_demo.mp4'
         command(['ffmpeg','-v','error','-y','-i','demo/assets/video/demo_silent.mp4',

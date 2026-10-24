@@ -1,5 +1,6 @@
 {
   "file": "demo/assets/video/demo_silent.mp4",
+  "theme": "midnight-blue",
   "decode_verified": true,
   "programs": [],
   "stream_groups": [],
@@ -12,7 +13,7 @@
     }
   ],
   "format": {
-    "duration": "114.920000",
-    "size": "2368197"
+    "duration": "117.680000",
+    "size": "2745279"
   }
 }

@@ -6,6 +6,8 @@
 
 AccessPath turns three deliberately confusing, **fictional local forms** into an accessible guided workflow. It reads actual HTML evidence, uses a local Qwen model to simplify the wording, keeps the originals beside the suggestions, and checks answers against the source constraints. A real Playwright browser fills and submits the fictional portal only after explicit confirmation.
 
+The interface has been redesigned throughout with a midnight-blue palette, horizontal navigation, form rows, blue-and-amber controls, and responsive reading preferences. The current screenshots below show that design.
+
 ![The actual AccessPath workspace](demo/assets/screenshots/workspace.png)
 
 ## Run on Windows
@@ -83,7 +85,9 @@ Start all services before browser tests or recording. Tests use explicitly synth
 
 See [evaluation details](docs/EVALUATION.md), [architecture](docs/ARCHITECTURE.md), and the [demo script](docs/DEMO_SCRIPT.md). Screenshots are captured from the actual app. `demo/assets/video/demo_silent.mp4` is generated locally and ignored by Git because it is large.
 
-The completed narrated demo is `demo/assets/video/final_demo.mp4`: **114.92 seconds, 1920×1080, Liam's voice, synchronized captions**. Captions occupy a dedicated band below the recorded screen. The video also includes a selectable subtitle track, and the separate SRT is at `demo/assets/audio/subtitles.srt`. See [voiceover reproduction and checks](docs/VOICEOVER.md).
+The completed narrated demo is `demo/assets/video/final_demo.mp4`: **117.68 seconds, 1920×1080, Liam's voice, synchronized captions**. Captions occupy a dedicated band below the recorded screen. The video also includes a selectable subtitle track, and the separate SRT is at `demo/assets/audio/subtitles.srt`. See [voiceover reproduction and checks](docs/VOICEOVER.md).
+
+The [previous-theme demonstration on YouTube](https://youtu.be/bom5s39cFz8) is verified and embeddable. It shows the same functional workflow before the redesign. The refreshed video is complete locally and awaits the user's replacement upload.
 
 ## Privacy and limits
 

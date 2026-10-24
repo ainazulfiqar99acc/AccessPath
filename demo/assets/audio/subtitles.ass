@@ -6,36 +6,36 @@ WrapStyle: 2
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,34,&H00FFFFFF,&H00FFFFFF,&H00223B2C,&H00223B2C,0,0,0,0,100,100,0,0,1,1,0,2,60,60,18,1
+Style: Default,Arial,34,&H00FFFFFF,&H00FFFFFF,&H001E0F08,&H001E0F08,0,0,0,0,100,100,0,0,1,1,0,2,60,60,18,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.82,0:00:04.31,Default,,0,0,0,,An open opportunity can still begin with a\Nconfusing form.
-Dialogue: 0,0:00:04.34,0:00:06.98,Default,,0,0,0,,AccessPath makes the next step clearer.
-Dialogue: 0,0:00:08.22,0:00:10.30,Default,,0,0,0,,This scholarship portal is fictional.
-Dialogue: 0,0:00:10.32,0:00:15.34,Default,,0,0,0,,But the extra work is familiar: legal\Nnomenclature, matriculation classification.
-Dialogue: 0,0:00:15.38,0:00:18.75,Default,,0,0,0,,Simple questions, hidden behind complicated\Nlanguage.
-Dialogue: 0,0:00:21.22,0:00:24.88,Default,,0,0,0,,AccessPath reads the actual labels,\Ninstructions, and limits.
-Dialogue: 0,0:00:24.91,0:00:27.54,Default,,0,0,0,,A local Qwen model suggests clearer wording.
-Dialogue: 0,0:00:27.58,0:00:29.42,Default,,0,0,0,,Your answers never go to the model.
-Dialogue: 0,0:00:29.45,0:00:32.92,Default,,0,0,0,,The originals stay beside every suggestion,\Nso you can check.
-Dialogue: 0,0:00:38.55,0:00:42.22,Default,,0,0,0,,First, get ready. Keep your student record\Nand proof of enrollment nearby.
-Dialogue: 0,0:00:42.25,0:00:44.14,Default,,0,0,0,,This checklist comes from the source.
-Dialogue: 0,0:00:44.18,0:00:45.82,Default,,0,0,0,,Nothing is uploaded.
-Dialogue: 0,0:00:48.82,0:00:51.01,Default,,0,0,0,,Then, one manageable question at a time.
-Dialogue: 0,0:00:51.04,0:00:53.01,Default,,0,0,0,,Every detail here is synthetic.
-Dialogue: 0,0:00:53.04,0:00:56.77,Default,,0,0,0,,Required fields and valid choices still\Nfollow the original form.
-Dialogue: 0,0:00:56.80,0:00:59.78,Default,,0,0,0,,You can go back, or save your place and take\Na break.
-Dialogue: 0,0:01:07.22,0:01:09.67,Default,,0,0,0,,The same source limits apply to the\Nstatement.
-Dialogue: 0,0:01:09.70,0:01:13.19,Default,,0,0,0,,Requirements come from the source, without\Neligibility promises.
-Dialogue: 0,0:01:13.22,0:01:15.92,Default,,0,0,0,,The guide explains; you choose what to\Nenter.
-Dialogue: 0,0:01:20.95,0:01:22.36,Default,,0,0,0,,Now review your answers.
-Dialogue: 0,0:01:22.39,0:01:25.01,Default,,0,0,0,,Nothing is sent until you explicitly\Nconfirm.
-Dialogue: 0,0:01:25.04,0:01:28.04,Default,,0,0,0,,Change an answer, and that confirmation\Nbecomes invalid.
-Dialogue: 0,0:01:28.08,0:01:29.95,Default,,0,0,0,,The decision stays with you.
-Dialogue: 0,0:01:34.72,0:01:39.41,Default,,0,0,0,,A real browser fills the supported fictional\Nportal and returns a local receipt.
-Dialogue: 0,0:01:39.44,0:01:42.20,Default,,0,0,0,,No real organization was contacted.
-Dialogue: 0,0:01:43.25,0:01:46.44,Default,,0,0,0,,Activity records actions without repeating\Nyour answers.
-Dialogue: 0,0:01:46.48,0:01:48.86,Default,,0,0,0,,Delete the draft to remove its local data.
-Dialogue: 0,0:01:48.89,0:01:50.92,Default,,0,0,0,,Less decoding. A clear next step.
-Dialogue: 0,0:01:50.95,0:01:52.48,Default,,0,0,0,,Always your decision.
+Dialogue: 0,0:00:00.98,0:00:04.46,Default,,0,0,0,,An open opportunity can still begin with a\Nconfusing form.
+Dialogue: 0,0:00:04.49,0:00:07.13,Default,,0,0,0,,AccessPath makes the next step clearer.
+Dialogue: 0,0:00:08.16,0:00:10.23,Default,,0,0,0,,This scholarship portal is fictional.
+Dialogue: 0,0:00:10.26,0:00:15.28,Default,,0,0,0,,But the extra work is familiar: legal\Nnomenclature, matriculation classification.
+Dialogue: 0,0:00:15.31,0:00:18.68,Default,,0,0,0,,Simple questions, hidden behind complicated\Nlanguage.
+Dialogue: 0,0:00:20.81,0:00:24.47,Default,,0,0,0,,AccessPath reads the actual labels,\Ninstructions, and limits.
+Dialogue: 0,0:00:24.50,0:00:27.13,Default,,0,0,0,,A local Qwen model suggests clearer wording.
+Dialogue: 0,0:00:27.16,0:00:29.00,Default,,0,0,0,,Your answers never go to the model.
+Dialogue: 0,0:00:29.03,0:00:32.51,Default,,0,0,0,,The originals stay beside every suggestion,\Nso you can check.
+Dialogue: 0,0:00:37.05,0:00:40.72,Default,,0,0,0,,First, get ready. Keep your student record\Nand proof of enrollment nearby.
+Dialogue: 0,0:00:40.75,0:00:42.64,Default,,0,0,0,,This checklist comes from the source.
+Dialogue: 0,0:00:42.68,0:00:44.32,Default,,0,0,0,,Nothing is uploaded.
+Dialogue: 0,0:00:45.22,0:00:47.40,Default,,0,0,0,,Then, one manageable question at a time.
+Dialogue: 0,0:00:47.43,0:00:49.40,Default,,0,0,0,,Every detail here is synthetic.
+Dialogue: 0,0:00:49.43,0:00:53.16,Default,,0,0,0,,Required fields and valid choices still\Nfollow the original form.
+Dialogue: 0,0:00:53.19,0:00:56.17,Default,,0,0,0,,You can go back, or save your place and take\Na break.
+Dialogue: 0,0:01:07.48,0:01:09.92,Default,,0,0,0,,The same source limits apply to the\Nstatement.
+Dialogue: 0,0:01:09.95,0:01:13.45,Default,,0,0,0,,Requirements come from the source, without\Neligibility promises.
+Dialogue: 0,0:01:13.48,0:01:16.18,Default,,0,0,0,,The guide explains; you choose what to\Nenter.
+Dialogue: 0,0:01:22.10,0:01:23.51,Default,,0,0,0,,Now review your answers.
+Dialogue: 0,0:01:23.54,0:01:26.16,Default,,0,0,0,,Nothing is sent until you explicitly\Nconfirm.
+Dialogue: 0,0:01:26.19,0:01:29.20,Default,,0,0,0,,Change an answer, and that confirmation\Nbecomes invalid.
+Dialogue: 0,0:01:29.23,0:01:31.10,Default,,0,0,0,,The decision stays with you.
+Dialogue: 0,0:01:33.57,0:01:38.25,Default,,0,0,0,,A real browser fills the supported fictional\Nportal and returns a local receipt.
+Dialogue: 0,0:01:38.28,0:01:41.04,Default,,0,0,0,,No real organization was contacted.
+Dialogue: 0,0:01:42.70,0:01:45.90,Default,,0,0,0,,Activity records actions without repeating\Nyour answers.
+Dialogue: 0,0:01:45.93,0:01:48.31,Default,,0,0,0,,Delete the draft to remove its local data.
+Dialogue: 0,0:01:48.34,0:01:50.37,Default,,0,0,0,,Less decoding. A clear next step.
+Dialogue: 0,0:01:50.40,0:01:51.93,Default,,0,0,0,,Always your decision.

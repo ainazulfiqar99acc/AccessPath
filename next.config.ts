@@ -4,6 +4,7 @@ const config: NextConfig = {
   devIndicators: false,
   distDir: process.env.ACCESSPATH_BUILD_DIR || '.next',
   logging: { incomingRequests: false, browserToTerminal: false },
+  experimental: { proxyTimeout: 270000 },
   async headers() {
     return [{source:'/:path*',headers:[
       {key:'Referrer-Policy',value:'no-referrer'},

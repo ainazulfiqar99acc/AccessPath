@@ -3,44 +3,63 @@
   "voice_display_name": "Liam",
   "voice_selected_by": "user",
   "sample_rate": 24000,
-  "video_duration": 114.92,
+  "video_duration": 117.68,
   "scenes": [
     {
-      "id": "opening", "start": 0.6, "end": 7.5,
+      "id": "opening",
+      "start": 0.754,
+      "end": 7.534,
       "text": "An open opportunity can still begin with a confusing form. AccessPath makes the next step clearer."
     },
     {
-      "id": "original", "start": 8.0, "end": 20.3,
+      "id": "original",
+      "start": 7.934,
+      "end": 20.183,
       "text": "This scholarship portal is fictional. But the extra work is familiar: legal nomenclature, matriculation classification. Simple questions, hidden behind complicated language."
     },
     {
-      "id": "evidence", "start": 21.0, "end": 37.9,
+      "id": "evidence",
+      "start": 20.583,
+      "end": 36.4,
       "text": "AccessPath reads the actual labels, instructions, and limits. A local Qwen model suggests clearer wording. Your answers never go to the model. The originals stay beside every suggestion, so you can check.",
-      "tts_text": "AccessPath reads the actual labels, instructions, and limits. A local [Qwen](/kw\u02c8\u025bn/) model suggests clearer wording. Your answers never go to the model. The originals stay beside every suggestion, so you can check."
+      "tts_text": "AccessPath reads the actual labels, instructions, and limits. A local [Qwen](/kwˈɛn/) model suggests clearer wording. Your answers never go to the model. The originals stay beside every suggestion, so you can check."
     },
     {
-      "id": "preparation", "start": 38.3, "end": 48.2,
+      "id": "preparation",
+      "start": 36.8,
+      "end": 44.591,
       "text": "First, get ready. Keep your student record and proof of enrollment nearby. This checklist comes from the source. Nothing is uploaded."
     },
     {
-      "id": "questions", "start": 48.6, "end": 66.3,
+      "id": "questions",
+      "start": 44.991,
+      "end": 66.852,
       "text": "Then, one manageable question at a time. Every detail here is synthetic. Required fields and valid choices still follow the original form. You can go back, or save your place and take a break."
     },
     {
-      "id": "statement", "start": 67.0, "end": 80.2,
+      "id": "statement",
+      "start": 67.252,
+      "end": 81.454,
       "text": "The same source limits apply to the statement. Requirements come from the source, without eligibility promises. The guide explains; you choose what to enter."
     },
     {
-      "id": "confirmation", "start": 80.7, "end": 91.3,
+      "id": "confirmation",
+      "start": 81.854,
+      "end": 92.943,
       "text": "Now review your answers. Nothing is sent until you explicitly confirm. Change an answer, and that confirmation becomes invalid. The decision stays with you."
     },
     {
-      "id": "receipt", "start": 94.5, "end": 102.5,
+      "id": "receipt",
+      "start": 93.343,
+      "end": 102.052,
       "text": "A real browser fills the supported fictional portal and returns a local receipt. No real organization was contacted."
     },
     {
-      "id": "privacy", "start": 103.0, "end": 114.4,
+      "id": "privacy",
+      "start": 102.452,
+      "end": 117.18,
       "text": "Activity records actions without repeating your answers. Delete the draft to remove its local data. Less decoding. A clear next step. Always your decision."
     }
-  ]
+  ],
+  "theme": "midnight-blue"
 }

@@ -4,9 +4,9 @@
     "failed": 0
   },
   "browser": {
-    "startTime": "2026-10-23T21:14:32.850Z",
-    "duration": 16522.261000000002,
-    "expected": 4,
+    "startTime": "2026-10-24T09:21:02.088Z",
+    "duration": 17887.798000000003,
+    "expected": 5,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
@@ -22,8 +22,13 @@
       "wizard": 0,
       "workspace": 0
     },
-    "certification": false
+    "certification": false,
+    "homepage_all_rules_axe": {
+      "violations": 0,
+      "scope": "Additional full default-rule homepage scan after landmark semantics correction"
+    }
   },
   "production_build": "passed",
-  "typescript": "passed"
+  "typescript": "passed",
+  "theme": "midnight-blue"
 }

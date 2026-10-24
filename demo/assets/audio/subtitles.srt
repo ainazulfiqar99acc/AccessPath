@@ -1,130 +1,130 @@
 1
-00:00:00,825 --> 00:00:04,307
+00:00:00,979 --> 00:00:04,462
 An open opportunity can still begin with a
 confusing form.
 
 2
-00:00:04,337 --> 00:00:06,975
+00:00:04,492 --> 00:00:07,129
 AccessPath makes the next step clearer.
 
 3
-00:00:08,225 --> 00:00:10,295
+00:00:08,159 --> 00:00:10,229
 This scholarship portal is fictional.
 
 4
-00:00:10,325 --> 00:00:15,345
+00:00:10,259 --> 00:00:15,279
 But the extra work is familiar: legal
 nomenclature, matriculation classification.
 
 5
-00:00:15,375 --> 00:00:18,750
+00:00:15,309 --> 00:00:18,684
 Simple questions, hidden behind complicated
 language.
 
 6
-00:00:21,225 --> 00:00:24,882
+00:00:20,808 --> 00:00:24,466
 AccessPath reads the actual labels,
 instructions, and limits.
 
 7
-00:00:24,912 --> 00:00:27,545
+00:00:24,496 --> 00:00:27,128
 A local Qwen model suggests clearer wording.
 
 8
-00:00:27,575 --> 00:00:29,420
+00:00:27,158 --> 00:00:29,003
 Your answers never go to the model.
 
 9
-00:00:29,450 --> 00:00:32,925
+00:00:29,033 --> 00:00:32,508
 The originals stay beside every suggestion,
 so you can check.
 
 10
-00:00:38,550 --> 00:00:42,220
+00:00:37,050 --> 00:00:40,720
 First, get ready. Keep your student record
 and proof of enrollment nearby.
 
 11
-00:00:42,250 --> 00:00:44,145
+00:00:40,750 --> 00:00:42,645
 This checklist comes from the source.
 
 12
-00:00:44,175 --> 00:00:45,825
+00:00:42,675 --> 00:00:44,325
 Nothing is uploaded.
 
 13
-00:00:48,825 --> 00:00:51,008
+00:00:45,216 --> 00:00:47,398
 Then, one manageable question at a time.
 
 14
-00:00:51,038 --> 00:00:53,008
+00:00:47,428 --> 00:00:49,398
 Every detail here is synthetic.
 
 15
-00:00:53,038 --> 00:00:56,770
+00:00:49,428 --> 00:00:53,161
 Required fields and valid choices still
 follow the original form.
 
 16
-00:00:56,800 --> 00:00:59,775
+00:00:53,191 --> 00:00:56,166
 You can go back, or save your place and take
 a break.
 
 17
-00:01:07,225 --> 00:01:09,670
+00:01:07,477 --> 00:01:09,922
 The same source limits apply to the
 statement.
 
 18
-00:01:09,700 --> 00:01:13,195
+00:01:09,952 --> 00:01:13,447
 Requirements come from the source, without
 eligibility promises.
 
 19
-00:01:13,225 --> 00:01:15,925
+00:01:13,477 --> 00:01:16,177
 The guide explains; you choose what to
 enter.
 
 20
-00:01:20,950 --> 00:01:22,358
+00:01:22,104 --> 00:01:23,512
 Now review your answers.
 
 21
-00:01:22,388 --> 00:01:25,008
+00:01:23,542 --> 00:01:26,162
 Nothing is sent until you explicitly
 confirm.
 
 22
-00:01:25,038 --> 00:01:28,045
+00:01:26,192 --> 00:01:29,199
 Change an answer, and that confirmation
 becomes invalid.
 
 23
-00:01:28,075 --> 00:01:29,950
+00:01:29,229 --> 00:01:31,104
 The decision stays with you.
 
 24
-00:01:34,725 --> 00:01:39,408
+00:01:33,568 --> 00:01:38,250
 A real browser fills the supported fictional
 portal and returns a local receipt.
 
 25
-00:01:39,438 --> 00:01:42,200
+00:01:38,280 --> 00:01:41,043
 No real organization was contacted.
 
 26
-00:01:43,250 --> 00:01:46,445
+00:01:42,702 --> 00:01:45,897
 Activity records actions without repeating
 your answers.
 
 27
-00:01:46,475 --> 00:01:48,858
+00:01:45,927 --> 00:01:48,310
 Delete the draft to remove its local data.
 
 28
-00:01:48,888 --> 00:01:50,920
+00:01:48,340 --> 00:01:50,372
 Less decoding. A clear next step.
 
 29
-00:01:50,950 --> 00:01:52,475
+00:01:50,402 --> 00:01:51,927
 Always your decision.
