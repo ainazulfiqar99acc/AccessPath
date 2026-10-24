@@ -32,27 +32,27 @@ These are screenshots from the actual application, hosted at verified immutable 
 
 The workspace presents three supported fictional forms:
 
-![AccessPath's actual workspace and fictional form picker](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/hero.png)
+![AccessPath's actual workspace and fictional form picker](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/hero.png)
 
 The original scholarship portal uses deliberately difficult language:
 
-![The actual fictional scholarship portal before guided completion](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/original-portal.png)
+![The actual fictional scholarship portal before guided completion](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/original-portal.png)
 
 Local explanations remain beside the source evidence:
 
-![Real Qwen-generated explanations alongside original labels and instructions](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/processing-evidence.png)
+![Real Qwen-generated explanations alongside original labels and instructions](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/processing-evidence.png)
 
 The guided workflow asks one active question at a time:
 
-![The working wizard with an explicitly synthetic student's educational statement](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/guided-step.png)
+![The working wizard with an explicitly synthetic student's educational statement](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/guided-step.png)
 
 Answers are assembled for review before explicit consent:
 
-![The actual final review of synthetic application answers](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/confirmation.png)
+![The actual final review of synthetic application answers](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/confirmation.png)
 
 The separate fictional portal returns a real local receipt:
 
-![The verified receipt after the real browser submitted the fictional portal](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/outcome.png)
+![The verified receipt after the real browser submitted the fictional portal](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/outcome.png)
 
 The recording uses synthetic details throughout and sends nothing to a real organization.
 

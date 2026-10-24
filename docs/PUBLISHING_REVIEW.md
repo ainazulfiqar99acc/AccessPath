@@ -16,3 +16,5 @@ Status: published to the user-approved public repository [ainazulfiqar99acc/Acce
 The first source commit, `8870fb6ea96d81bab044f78805321f98d450f6e4`, was verified to match both local `HEAD` and the remote `main` at the time of push. Six screenshot URLs pinned to that immutable commit were fetched successfully and matched local SHA-256 hashes. The midnight-blue redesign includes refreshed screenshots and a new 117.68-second narrated demo. Current image verification is recorded in `published-screenshots.json`. The DEV review draft explicitly identifies the existing YouTube embed as the earlier interface until its replacement upload is supplied.
 
 YouTube upload and final DEV article review remain separate user checkpoints. No external article or video publication is authorized by this preparation alone.
+
+The redesigned source and screenshots were pushed and verified at `8b5443a05e6e18ce152a99e0610a405a955fc8fd`. All six current article PNG URLs pinned to this commit returned HTTP 200 and matched local SHA-256 values. The new 117.68-second video remains local for the required user upload.

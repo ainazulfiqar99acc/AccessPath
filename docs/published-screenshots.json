@@ -1,21 +1,22 @@
 {
   "repository": "https://github.com/ainazulfiqar99acc/AccessPath",
   "branch": "main",
-  "image_commit": "8870fb6ea96d81bab044f78805321f98d450f6e4",
+  "image_commit": "8b5443a05e6e18ce152a99e0610a405a955fc8fd",
+  "theme": "midnight-blue",
   "images": [
     {
       "name": "hero",
       "path": "demo/assets/screenshots/hero.png",
-      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/hero.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/hero.png",
       "status": 200,
       "mime": "image/png",
-      "bytes": 125614,
-      "sha256": "167ec3415ea4c1db71622dc9c32d699ad0952e05e59326b7e404f885eb310939"
+      "bytes": 314168,
+      "sha256": "d6bfa3f1be511ea334168f281caf08d7cce55c45f49cbe48e4084abf40de8ceb"
     },
     {
       "name": "original-portal",
       "path": "demo/assets/screenshots/original-portal.png",
-      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/original-portal.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/original-portal.png",
       "status": 200,
       "mime": "image/png",
       "bytes": 57230,
@@ -24,38 +25,38 @@
     {
       "name": "processing-evidence",
       "path": "demo/assets/screenshots/processing-evidence.png",
-      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/processing-evidence.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/processing-evidence.png",
       "status": 200,
       "mime": "image/png",
-      "bytes": 95375,
-      "sha256": "4b2941d3597e384ead098955dcd9b06c058292467002d1a8f75bb3554555232d"
+      "bytes": 275498,
+      "sha256": "cc46aba63f0514edf67a4edd87122510193cd7c2af0a376055a7a23c3ae73bca"
     },
     {
       "name": "guided-step",
       "path": "demo/assets/screenshots/guided-step.png",
-      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/guided-step.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/guided-step.png",
       "status": 200,
       "mime": "image/png",
-      "bytes": 74195,
-      "sha256": "53394b9e191c86c01deda28c3f5badb65167c1fe440c59cc6df66eaaffa0ec65"
+      "bytes": 161063,
+      "sha256": "96fb90818be9998f24353900539a7e21d0ed1bb849c4f270d54ed9ea21138558"
     },
     {
       "name": "confirmation",
       "path": "demo/assets/screenshots/confirmation.png",
-      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/confirmation.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/confirmation.png",
       "status": 200,
       "mime": "image/png",
-      "bytes": 81044,
-      "sha256": "be55ed5076ffe22e50caedfc7c44234aa42a9ecce21f3fa50cb9e1b380fd6b90"
+      "bytes": 189816,
+      "sha256": "6e6b5d5563f677cdd3a10719566eb835f0c58510ec1643ac7aefc85c6ffac604"
     },
     {
       "name": "outcome",
       "path": "demo/assets/screenshots/outcome.png",
-      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/outcome.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8b5443a05e6e18ce152a99e0610a405a955fc8fd/demo/assets/screenshots/outcome.png",
       "status": 200,
       "mime": "image/png",
-      "bytes": 72458,
-      "sha256": "03b5985af6360e9eed0aa956dae4a5ef716ac128a172d4ff5b19447d6a21565c"
+      "bytes": 219610,
+      "sha256": "417335cb70d030212194974941ec8863bb16e861ff2ae3a2eb59c7a8ec57397c"
     }
   ]
 }
