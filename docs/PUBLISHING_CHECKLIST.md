@@ -1,6 +1,6 @@
 # Publication status and checkpoints
 
-The user approved the public GitHub repository [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath). The full midnight-blue redesign, new screenshots, and re-recorded narrated demo are complete and the source/screenshots are pushed to `main`. The refreshed YouTube upload was supplied and verified; final DEV review remains pending. This checklist implements the explicit approval boundaries in `BUILD_PROMPT.md`.
+The user approved the public GitHub repository [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath). The full midnight-blue redesign, new screenshots, and re-recorded narrated demo are complete and the source/screenshots are pushed to `main`. The refreshed YouTube upload and the user's [published DEV article](https://dev.to/zedaina/the-internet-is-open-to-everyone-filling-out-its-forms-isnt-18l5) were verified. This checklist implements the explicit approval boundaries in `BUILD_PROMPT.md`.
 
 - [x] Build local source-derived workflow, local Qwen integration, three fictional portals, review and explicit submission confirmation.
 - [x] Run backend and browser checks; verify fresh real Qwen inference and store evaluation evidence.
@@ -18,6 +18,6 @@ The user approved the public GitHub repository [ainazulfiqar99acc/AccessPath](ht
 - [x] Verify the current challenge template, dates, required tags, and partner-category requirements. See `CHALLENGE_CHECK.md`; no partner category is claimed.
 - [x] Replace the earlier-theme embed with `{% youtube VmlFZgN95ro %}` and remove stale pending-upload language.
 - [x] Prepare the complete final DEV Markdown for display in the completion message.
-- [ ] Obtain the user's final article review. The user publishes manually; do not publish automatically.
+- [x] User published the article manually and supplied its live URL. Verify public page/API, new video embed, all six screenshots, source link, and required tags. See `dev-publication-evidence.json`. The agent made no authenticated DEV changes.
 
-Do not invent links, model responses, participants, timing savings, narrated video artifacts, or challenge eligibility. Gemma and its category are excluded. The complete article is ready for user review; it is not published.
+Do not invent links, model responses, participants, timing savings, narrated video artifacts, or challenge eligibility. Gemma and its category are excluded. The user-published article is live and verified. All project publication checkpoints are complete.

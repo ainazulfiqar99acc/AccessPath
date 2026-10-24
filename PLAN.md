@@ -16,6 +16,6 @@
 - User approved public GitHub publication under `ainazulfiqar99acc/AccessPath`. Source is pushed to `main`; six immutable public screenshot URLs were verified against local image hashes.
 - User requested a full visual redesign: midnight-blue theme, top navigation, horizontal form choices, rebuilt workflow styling, and responsive reading controls. Current screenshots and the 117.68-second narrated recording use that design. The frontend proxy timeout and non-JSON error handling were corrected during re-recording and covered by a regression test.
 
-## Pending external/user checkpoints
+## Publication completed
 
-The user uploaded the refreshed video at https://youtu.be/VmlFZgN95ro. Playability, embedding, 118-second platform duration, and the current-theme thumbnail were verified. The complete article now embeds that video and verified current screenshots. Only the user's final article review and manual DEV publication remain; the article has not been published.
+The user uploaded the refreshed video at https://youtu.be/VmlFZgN95ro. Playability, embedding, 118-second platform duration, and the current-theme thumbnail were verified. The complete article now embeds that video and verified current screenshots. The user published the article at https://dev.to/zedaina/the-internet-is-open-to-everyone-filling-out-its-forms-isnt-18l5. Public page/API checks verified its body, new video embed, six accessible screenshots, source link, and both required challenge tags. No publication checkpoints remain.

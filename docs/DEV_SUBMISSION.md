@@ -1,6 +1,6 @@
 Title: **The Internet Is Open to Everyone. Filling Out Its Forms Isn't.**
 
-Tags: `devchallenge`, `hf26challenge`, `ai`, `accessibility`.
+Tags: `devchallenge`, `hf26challenge`, `ai`.
 
 *This is a submission for the [Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady](https://dev.to/challenges/hacktoberfest-week3-2026-10-19)*
 

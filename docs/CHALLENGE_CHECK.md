@@ -16,3 +16,5 @@ No implemented integration supports a claim to one of the listed partner categor
 The prescribed article sections remain in order: What I Built; Demo; Code; How I Built It; Why Does Open Innovation Matter?; The Lazy Payoff. Unsupported optional sections are omitted. The author must review the final article and publish it manually; this agent will not publish it automatically.
 
 The user-supplied current YouTube ID `VmlFZgN95ro` was verified as playable and embeddable. Its rounded platform duration is 118 seconds, consistent with the 117.68-second local demo. The public thumbnail shows the midnight-blue wizard and captions. The article embeds this current upload. See `youtube-evidence.json`.
+
+The user published the article at https://dev.to/zedaina/the-internet-is-open-to-everyone-filling-out-its-forms-isnt-18l5. The live article has the required `devchallenge` and `hf26challenge` tags, plus `ai`. Its six section headings remain in the prescribed order. Public content verification is recorded in `dev-publication-evidence.json`; this confirms publication format rather than judging eligibility or acceptance.

@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-24T12:13:16.808415+00:00",
+  "url": "https://dev.to/zedaina/the-internet-is-open-to-everyone-filling-out-its-forms-isnt-18l5",
+  "article_id": 4910363,
+  "author": "zedaina",
+  "title": "The Internet Is Open to Everyone. Filling Out Its Forms Isn't.",
+  "published_at": "2026-10-24T12:09:57Z",
+  "page_http_status": 200,
+  "public_api_http_status": 200,
+  "tags": [
+    "devchallenge",
+    "hf26challenge",
+    "ai"
+  ],
+  "required_challenge_tags_present": true,
+  "youtube_embed": "https://www.youtube.com/embed/VmlFZgN95ro",
+  "source_repository": "https://github.com/ainazulfiqar99acc/AccessPath",
+  "published_body_matches_prepared_article_except_image_hosting_and_whitespace": true,
+  "voice_tool_named_in_body": false,
+  "screenshots": [
+    {
+      "name": "hero",
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyhe3b20efcg4gx2izhvh.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 73356,
+      "sha256": "169ab4f94186e07adecef36b5b86dc6fdc9c364d109d2ee8a95743967c55fef1"
+    },
+    {
+      "name": "original-portal",
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft4dew1vlms75lh2vpuov.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 54296,
+      "sha256": "63a2d47805077ed0bb511ea7e6ee302058e63d8efa9a25943dd3a5b01fb85da7"
+    },
+    {
+      "name": "processing-evidence",
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwkvliueorkhv4m5m4nrw.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 57008,
+      "sha256": "cb7a087eb2f424aef16d9a5c4249ee8cd4a875d6967353856a29d2f4de18f29e"
+    },
+    {
+      "name": "guided-step",
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftd0rbrmi2v2yq8et9pt7.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 43576,
+      "sha256": "fda2cc27268762e85534aa472af9408b0e50c3f4569535c0b8ad7863586f3b7b"
+    },
+    {
+      "name": "confirmation",
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feyd9x471umlisru3l7b0.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 50036,
+      "sha256": "6f0f0527583e17188f55473916fb548dbf7f853616411646a48a78de7c29a966"
+    },
+    {
+      "name": "outcome",
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6ckbi1e0i8wlgqlwkfme.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 43054,
+      "sha256": "2d3aa2cf1b772d7fb26afb3ec60f1bd09e78803a79e06b2eb08cac4d91d09695"
+    }
+  ],
+  "publication_performed_by": "user",
+  "verification_scope": "Public HTML and official public DEV API; iframe source, article content, link presence, and successful image downloads. No authenticated changes to DEV were made."
+}
