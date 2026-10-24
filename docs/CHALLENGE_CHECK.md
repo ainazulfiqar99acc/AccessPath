@@ -15,4 +15,4 @@ No implemented integration supports a claim to one of the listed partner categor
 
 The prescribed article sections remain in order: What I Built; Demo; Code; How I Built It; Why Does Open Innovation Matter?; The Lazy Payoff. Unsupported optional sections are omitted. The author must review the final article and publish it manually; this agent will not publish it automatically.
 
-The user-supplied YouTube ID `bom5s39cFz8` was verified as playable and embeddable, with a 115-second duration. It shows the original theme. The refreshed 117.68-second demo is complete locally for the midnight-blue redesign; its replacement upload URL remains pending. See `youtube-evidence.json`.
+The user-supplied current YouTube ID `VmlFZgN95ro` was verified as playable and embeddable. Its rounded platform duration is 118 seconds, consistent with the 117.68-second local demo. The public thumbnail shows the midnight-blue wizard and captions. The article embeds this current upload. See `youtube-evidence.json`.

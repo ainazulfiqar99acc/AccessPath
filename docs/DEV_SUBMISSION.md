@@ -1,5 +1,3 @@
-> **REVIEW DRAFT — replacement video link pending.** The supplied YouTube video is verified and embedded below, but it shows the earlier interface. The user requested a complete redesign, and the current project now uses a midnight-blue theme. The refreshed 117.68-second narrated demo is complete locally. Replace the video embed after the user uploads that file; article review and manual DEV publication remain pending.
-
 Title: **The Internet Is Open to Everyone. Filling Out Its Forms Isn't.**
 
 Tags: `devchallenge`, `hf26challenge`, `ai`, `accessibility`.
@@ -20,9 +18,9 @@ The repetitive burden I am trying to reduce is decoding: remembering which phras
 
 ## Demo
 
-The video below demonstrates the working workflow before the visual redesign. The screenshots show the current midnight-blue interface. The refreshed video will replace this embed after upload.
+The 1-minute-58-second video shows the current midnight-blue interface, with narrated guidance and synchronized captions.
 
-{% youtube bom5s39cFz8 %}
+{% youtube VmlFZgN95ro %}
 
 A genuine Playwright recording shows the full scholarship journey using **Synthetic Demo Student** and `student@example.org`. It opens the original portal, shows native validation, requests fresh local Qwen inference, compares explanations with evidence, works through preparation and questions, reviews the answers, confirms submission, reads a receipt, inspects activity, and deletes the draft.
 

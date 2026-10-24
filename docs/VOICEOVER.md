@@ -39,4 +39,4 @@ FFmpeg/FFprobe must be on PATH. The renderer downloads the pinned official model
 
 For a new screen recording, first run `npm run demo:record`, then `.\.venv\Scripts\python.exe demo\retime_narration.py` before the narration command. The recorder saves real scene markers. Retiming removes only the 4.96-second initial page-loading lead-in from the current recording and positions the existing Liam clips against the resulting 117.68-second footage. Inference waiting time and successful actions remain in the demonstration.
 
-The [source repository](https://github.com/ainazulfiqar99acc/AccessPath) is public. The generated audio/video files remain local and are ignored by Git. No YouTube upload was performed.
+The [source repository](https://github.com/ainazulfiqar99acc/AccessPath) is public. The generated audio/video files remain local and are ignored by Git. The agent did not upload to YouTube. The user supplied the current public video at https://youtu.be/VmlFZgN95ro, which was verified and embedded in the article.

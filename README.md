@@ -87,7 +87,7 @@ See [evaluation details](docs/EVALUATION.md), [architecture](docs/ARCHITECTURE.m
 
 The completed narrated demo is `demo/assets/video/final_demo.mp4`: **117.68 seconds, 1920×1080, Liam's voice, synchronized captions**. Captions occupy a dedicated band below the recorded screen. The video also includes a selectable subtitle track, and the separate SRT is at `demo/assets/audio/subtitles.srt`. See [voiceover reproduction and checks](docs/VOICEOVER.md).
 
-The [previous-theme demonstration on YouTube](https://youtu.be/bom5s39cFz8) is verified and embeddable. It shows the same functional workflow before the redesign. The refreshed video is complete locally and awaits the user's replacement upload.
+Watch the [current narrated demonstration on YouTube](https://youtu.be/VmlFZgN95ro): the redesigned midnight-blue interface, Liam narration, and synchronized captions. The user-supplied upload is playable and embeddable; its rounded 118-second duration matches the 117.68-second local recording.
 
 ## Privacy and limits
 
@@ -103,4 +103,4 @@ Qwen3 weights use [Apache 2.0](https://huggingface.co/Qwen/Qwen3-8B/blob/main/LI
 
 ## Publication status
 
-The application, genuine screenshots, and narrated video are complete. The user selected Liam for narration and approved publication under [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath), which is public on branch `main`. Source and genuine screenshots are published; local data, credentials, model files, and generated audio/video remain excluded. YouTube handoff and final DEV review remain explicit checkpoints in `BUILD_PROMPT.md`. [Publication checklist](docs/PUBLISHING_CHECKLIST.md) tracks the remaining steps; [DEV draft](docs/DEV_SUBMISSION.md) is marked pending the actual YouTube URL and final review.
+The application, genuine screenshots, and narrated video are complete. The user selected Liam for narration and approved publication under [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath), which is public on branch `main`. Source and genuine screenshots are published; local data, credentials, model files, and generated audio/video remain excluded. The user completed the YouTube handoff. [Publication checklist](docs/PUBLISHING_CHECKLIST.md) tracks final article review; the complete [DEV article](docs/DEV_SUBMISSION.md) now includes the verified current video and screenshots. It has not been published to DEV.

@@ -1,12 +1,23 @@
 {
-  "checked_at": "2026-10-24T09:11:11.860408+00:00",
-  "url": "https://youtu.be/bom5s39cFz8",
-  "video_id": "bom5s39cFz8",
-  "title": "Acess-path",
-  "duration_seconds": 115,
+  "checked_at": "2026-10-24T11:57:20.978358+00:00",
+  "url": "https://youtu.be/VmlFZgN95ro",
+  "video_id": "VmlFZgN95ro",
+  "title": "Acess Path",
+  "channel": "Aina",
+  "duration_seconds": 118,
+  "local_video_seconds": 117.68,
   "oembed_http_status": 200,
+  "watch_http_status": 200,
   "playability_status": "OK",
   "playable_in_embed": true,
-  "matches_current_theme": false,
-  "note": "Verified user-uploaded video shows the earlier theme. The refreshed midnight-blue recording needs a new user upload before the final article embed is current."
+  "matches_current_theme": true,
+  "visual_check": "Downloaded public YouTube thumbnail shows the midnight-blue educational-intent wizard and the caption band. The rounded 118-second platform duration agrees with the 117.68-second local file.",
+  "scope": "Metadata and thumbnail verification; no claim of full streamed playback or byte identity with the transcoded YouTube copy.",
+  "previous_video": {
+    "url": "https://youtu.be/bom5s39cFz8",
+    "video_id": "bom5s39cFz8",
+    "title": "Acess-path",
+    "duration_seconds": 115,
+    "matches_current_theme": false
+  }
 }

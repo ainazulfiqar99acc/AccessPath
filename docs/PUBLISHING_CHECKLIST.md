@@ -1,6 +1,6 @@
 # Publication status and checkpoints
 
-The user approved the public GitHub repository [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath). The full midnight-blue redesign, new screenshots, and re-recorded narrated demo are complete and the source/screenshots are pushed to `main`. The previous-theme YouTube link was supplied and verified; a replacement upload and final DEV review remain pending. This checklist implements the explicit approval boundaries in `BUILD_PROMPT.md`.
+The user approved the public GitHub repository [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath). The full midnight-blue redesign, new screenshots, and re-recorded narrated demo are complete and the source/screenshots are pushed to `main`. The refreshed YouTube upload was supplied and verified; final DEV review remains pending. This checklist implements the explicit approval boundaries in `BUILD_PROMPT.md`.
 
 - [x] Build local source-derived workflow, local Qwen integration, three fictional portals, review and explicit submission confirmation.
 - [x] Run backend and browser checks; verify fresh real Qwen inference and store evaluation evidence.
@@ -14,9 +14,10 @@ The user approved the public GitHub repository [ainazulfiqar99acc/AccessPath](ht
 - [x] Inspect installed Kokoro-82M configuration and supported voices; obtain the user's final voice choice: **Liam (`am_liam`)**.
 - [x] Generate genuine local audio, timed subtitles, and `demo/assets/video/final_demo.mp4`; verify synchronization, caption coverage, levels, and full playback decoding. Narration and captions omit the voice-tool name as requested.
 - [x] Verify the user-uploaded original video `bom5s39cFz8`: playable, embeddable, 115 seconds. See `youtube-evidence.json`.
-- [ ] Obtain a replacement YouTube URL for the refreshed 117.68-second midnight-blue video. Do not pick a YouTube account or upload automatically.
+- [x] User supplied the refreshed video at https://youtu.be/VmlFZgN95ro. Verified playability, embedding, rounded 118-second duration, and current-theme thumbnail. No account was selected and no upload was performed by the agent.
 - [x] Verify the current challenge template, dates, required tags, and partner-category requirements. See `CHALLENGE_CHECK.md`; no partner category is claimed.
-- [ ] Replace the explicitly labeled earlier-theme video embed in the complete review draft with the refreshed upload, then obtain final article review.
-- [ ] Display the complete final DEV Markdown and obtain article review. Do not publish the article automatically.
+- [x] Replace the earlier-theme embed with `{% youtube VmlFZgN95ro %}` and remove stale pending-upload language.
+- [x] Prepare the complete final DEV Markdown for display in the completion message.
+- [ ] Obtain the user's final article review. The user publishes manually; do not publish automatically.
 
-Do not invent links, model responses, participants, timing savings, narrated video artifacts, or challenge eligibility. Gemma and its category are excluded. The pending draft is not a finished submission.
+Do not invent links, model responses, participants, timing savings, narrated video artifacts, or challenge eligibility. Gemma and its category are excluded. The complete article is ready for user review; it is not published.

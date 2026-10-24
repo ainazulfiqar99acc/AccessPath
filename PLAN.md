@@ -18,4 +18,4 @@
 
 ## Pending external/user checkpoints
 
-Replacement YouTube upload for the redesigned interface and final article review. The earlier-theme user video is verified, and the review draft explicitly labels it as such. GitHub is public; DEV has not been published.
+The user uploaded the refreshed video at https://youtu.be/VmlFZgN95ro. Playability, embedding, 118-second platform duration, and the current-theme thumbnail were verified. The complete article now embeds that video and verified current screenshots. Only the user's final article review and manual DEV publication remain; the article has not been published.
