@@ -1,0 +1,51 @@
+{
+    "fields":  [
+                   {
+                       "field_id":  "full_name",
+                       "plain_label":  "Full name",
+                       "explanation":  "Enter your full name as shown on your student record. Maximum 80 characters."
+                   },
+                   {
+                       "field_id":  "email",
+                       "plain_label":  "Email address",
+                       "explanation":  "Use an email address where you can receive updates. Maximum 120 characters."
+                   },
+                   {
+                       "field_id":  "study_level",
+                       "plain_label":  "Study level",
+                       "explanation":  "Choose the level of the course you currently attend."
+                   },
+                   {
+                       "field_id":  "enrollment",
+                       "plain_label":  "Student reference",
+                       "explanation":  "Enter your student reference. Use 4 to 20 letters, numbers or hyphens."
+                   },
+                   {
+                       "field_id":  "has_support",
+                       "plain_label":  "Other funding",
+                       "explanation":  "Tell us whether you currently receive other education funding."
+                   },
+                   {
+                       "field_id":  "support_details",
+                       "plain_label":  "Funding provider",
+                       "explanation":  "If you receive other funding, name the provider. Maximum 200 characters."
+                   },
+                   {
+                       "field_id":  "statement",
+                       "plain_label":  "Educational intent",
+                       "explanation":  "Describe what you want to learn and how this support would help. Use 20 to 600 characters. Do not include medical or financial account details."
+                   },
+                   {
+                       "field_id":  "declaration",
+                       "plain_label":  "Information accuracy",
+                       "explanation":  "I confirm that the information I entered is accurate for this fictional demonstration."
+                   }
+               ],
+    "model":  "qwen3:8b",
+    "model_digest":  "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "source_hash":  "129fe4fe1c163956fc4a54640878150003dff565b42058262ecaa7ca8a338763",
+    "seconds":  3.41,
+    "eval_count":  371,
+    "cached":  false,
+    "verification":  "Field IDs, new numbers and selected unsupported claims checked. Wording still needs human review."
+}

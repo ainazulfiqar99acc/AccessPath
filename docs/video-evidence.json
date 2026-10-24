@@ -1,0 +1,18 @@
+{
+  "file": "demo/assets/video/demo_silent.mp4",
+  "decode_verified": true,
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p"
+    }
+  ],
+  "format": {
+    "duration": "114.920000",
+    "size": "2368197"
+  }
+}

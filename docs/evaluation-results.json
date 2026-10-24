@@ -1,0 +1,162 @@
+{
+  "measured_at": "2026-10-23T21:07:10.099338+00:00",
+  "python": "3.12.7",
+  "model_status": {
+    "ready": true,
+    "model": "qwen3:8b",
+    "busy": false,
+    "local": true,
+    "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "detail": "Available locally"
+  },
+  "synthetic_forms_only": true,
+  "forms": [
+    {
+      "form_id": "scholarship",
+      "field_ids_exact": true,
+      "field_count": 8,
+      "required_count": 7,
+      "conditional_count": 1,
+      "requirement_count": 2,
+      "explanation": {
+        "fields": [
+          {
+            "field_id": "full_name",
+            "plain_label": "Full name",
+            "explanation": "Enter your full name as shown on your student record. Maximum 80 characters."
+          },
+          {
+            "field_id": "email",
+            "plain_label": "Email address",
+            "explanation": "Use an email address where you can receive updates. Maximum 120 characters."
+          },
+          {
+            "field_id": "study_level",
+            "plain_label": "Study level",
+            "explanation": "Choose the level of the course you currently attend."
+          },
+          {
+            "field_id": "enrollment",
+            "plain_label": "Student reference",
+            "explanation": "Enter your student reference. Use 4 to 20 letters, numbers or hyphens."
+          },
+          {
+            "field_id": "has_support",
+            "plain_label": "Other funding",
+            "explanation": "Tell us whether you currently receive other education funding."
+          },
+          {
+            "field_id": "support_details",
+            "plain_label": "Funding provider",
+            "explanation": "If you receive other funding, name the provider. Maximum 200 characters."
+          },
+          {
+            "field_id": "statement",
+            "plain_label": "Educational intent",
+            "explanation": "Describe what you want to learn and how this support would help. Use 20 to 600 characters. Do not include medical or financial account details."
+          },
+          {
+            "field_id": "declaration",
+            "plain_label": "Information accuracy",
+            "explanation": "I confirm that the information I entered is accurate for this fictional demonstration."
+          }
+        ],
+        "model": "qwen3:8b",
+        "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+        "source_hash": "129fe4fe1c163956fc4a54640878150003dff565b42058262ecaa7ca8a338763",
+        "seconds": 3.33,
+        "eval_count": 371,
+        "cached": false,
+        "verification": "Field IDs, new numbers and selected unsupported claims checked. Wording still needs human review."
+      }
+    },
+    {
+      "form_id": "community",
+      "field_ids_exact": true,
+      "field_count": 5,
+      "required_count": 4,
+      "conditional_count": 0,
+      "requirement_count": 1,
+      "explanation": {
+        "fields": [
+          {
+            "field_id": "full_name",
+            "plain_label": "Full name",
+            "explanation": "Enter your full name. Maximum 80 characters."
+          },
+          {
+            "field_id": "email",
+            "plain_label": "Email address",
+            "explanation": "Enter an email address for registration updates. Maximum 120 characters."
+          },
+          {
+            "field_id": "workshop",
+            "plain_label": "Workshop choice",
+            "explanation": "Choose one workshop: Community gardening or Everyday repairs."
+          },
+          {
+            "field_id": "access_notes",
+            "plain_label": "Accommodation details",
+            "explanation": "Describe adjustments that would help you participate. Maximum 300 characters. Do not include diagnoses."
+          },
+          {
+            "field_id": "declaration",
+            "plain_label": "Declaration",
+            "explanation": "Check this box to confirm the information you entered is accurate for this fictional demonstration."
+          }
+        ],
+        "model": "qwen3:8b",
+        "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+        "source_hash": "c29d86d73fb2c26c47bcb8507982349d9d6664c749a37509cfeab973d53c7565",
+        "seconds": 2.0,
+        "eval_count": 222,
+        "cached": false,
+        "verification": "Field IDs, new numbers and selected unsupported claims checked. Wording still needs human review."
+      }
+    },
+    {
+      "form_id": "benefit",
+      "field_ids_exact": true,
+      "field_count": 5,
+      "required_count": 5,
+      "conditional_count": 0,
+      "requirement_count": 1,
+      "explanation": {
+        "fields": [
+          {
+            "field_id": "full_name",
+            "plain_label": "Full name",
+            "explanation": "Enter your full legal name. Maximum 80 characters."
+          },
+          {
+            "field_id": "email",
+            "plain_label": "Email address",
+            "explanation": "Enter an email address where you can be contacted."
+          },
+          {
+            "field_id": "household_size",
+            "plain_label": "Household size",
+            "explanation": "Enter the number of people who usually live in your household. Must be between 1 and 20."
+          },
+          {
+            "field_id": "topic",
+            "plain_label": "Type of assistance",
+            "explanation": "Choose the type of information you need: Food support or Energy support."
+          },
+          {
+            "field_id": "declaration",
+            "plain_label": "Declaration",
+            "explanation": "Check this box to confirm the information you provided is accurate for this fictional demonstration."
+          }
+        ],
+        "model": "qwen3:8b",
+        "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+        "source_hash": "ce2322587709d67790dbd28f0ba1911448a3d7631073145aa78926e78587dae0",
+        "seconds": 1.99,
+        "eval_count": 223,
+        "cached": false,
+        "verification": "Field IDs, new numbers and selected unsupported claims checked. Wording still needs human review."
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Install in a separate .tools/kokoro venv. Install CPU torch first from its official index.
+kokoro==0.9.4
+soundfile>=0.13,<0.14
+transformers>=4.48,<5
+numpy>=1.26,<3

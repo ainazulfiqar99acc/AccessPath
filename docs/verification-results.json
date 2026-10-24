@@ -1,0 +1,29 @@
+{
+  "backend": {
+    "passed": 11,
+    "failed": 0
+  },
+  "browser": {
+    "startTime": "2026-10-23T21:14:32.850Z",
+    "duration": 16522.261000000002,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "accessibility": {
+    "violations_by_view": {
+      "activity": 0,
+      "analysis": 0,
+      "checklist": 0,
+      "mobile-large-contrast": 0,
+      "review": 0,
+      "success": 0,
+      "wizard": 0,
+      "workspace": 0
+    },
+    "certification": false
+  },
+  "production_build": "passed",
+  "typescript": "passed"
+}

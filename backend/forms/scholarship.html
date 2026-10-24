@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Northstar Learning Fund | Fictional portal</title><link rel="stylesheet" href="/portal.css"></head><body>
+<header><strong>NORTHSTAR LEARNING FUND</strong><span>Fictional local test portal · no real agency</span></header><main>
+<p>FORM NS-104 / EDUCATION SUPPORT</p><h1>Student scholarship application</h1>
+<p id="instructions">Complete all mandatory particulars. This demonstration does not determine eligibility or award funding. Documents are a readiness checklist; no files are collected.</p>
+<form id="application" action="/forms/scholarship/submit" method="post">
+<fieldset><legend>Your details</legend>
+<label for="full_name">Applicant's full legal nomenclature</label><p id="full_name-help">Enter your full name as shown on your student record. Maximum 80 characters.</p><input id="full_name" name="full_name" required maxlength="80" aria-describedby="full_name-help" autocomplete="name">
+<label for="email">Electronic correspondence address</label><p id="email-help">Use an email address where you can receive updates.</p><input id="email" name="email" type="email" required maxlength="120" aria-describedby="email-help" autocomplete="email">
+</fieldset>
+<fieldset><legend>Your studies</legend>
+<label for="study_level">Current matriculation classification</label><p id="study_level-help">Choose the level of the course you currently attend.</p><select id="study_level" name="study_level" required aria-describedby="study_level-help"><option value="">Select a classification</option><option value="undergraduate">Undergraduate</option><option value="postgraduate">Postgraduate</option></select>
+<label for="enrollment">Institutional enrollment reference</label><p id="enrollment-help">Enter your student reference. Use 4 to 20 letters, numbers or hyphens.</p><input id="enrollment" name="enrollment" required minlength="4" maxlength="20" pattern="[A-Za-z0-9-]{4,20}" aria-describedby="enrollment-help">
+</fieldset>
+<fieldset><legend>Funding details</legend>
+<label for="has_support">Concurrent educational sponsorship declaration</label><p id="has_support-help">Tell us whether you currently receive other education funding.</p><select id="has_support" name="has_support" required aria-describedby="has_support-help"><option value="">Select an answer</option><option value="no">No</option><option value="yes">Yes</option></select>
+<div data-conditional="has_support:yes"><label for="support_details">Particulars of concurrent sponsorship</label><p id="support_details-help">If you receive other funding, name the provider. Maximum 200 characters.</p><textarea id="support_details" name="support_details" data-required-when="has_support:yes" maxlength="200" aria-describedby="support_details-help"></textarea></div>
+<label for="statement">Statement of educational intent</label><p id="statement-help">Describe what you want to learn and how this support would help. Use 20 to 600 characters. Do not include medical or financial account details.</p><textarea id="statement" name="statement" required minlength="20" maxlength="600" aria-describedby="statement-help"></textarea>
+</fieldset>
+<section aria-label="Document checklist"><h2>Documentary prerequisites</h2><ul><li data-requirement="student_record">Have your current student record ready. Do not upload it here.</li><li data-requirement="enrollment_proof">Have proof of enrollment ready. Do not upload it here.</li></ul></section>
+<p data-ambiguity="review">The source says applications are reviewed “in due course” but gives no review date. Ask the fictional fund administrator for clarification.</p>
+<label class="declaration"><input id="declaration" name="declaration" type="checkbox" required> I confirm that the information I entered is accurate for this fictional demonstration.</label>
+<button type="submit">Lodge application</button></form></main><script src="/portal.js"></script></body></html>
