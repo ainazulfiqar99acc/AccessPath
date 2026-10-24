@@ -1,0 +1,61 @@
+{
+  "repository": "https://github.com/ainazulfiqar99acc/AccessPath",
+  "branch": "main",
+  "image_commit": "8870fb6ea96d81bab044f78805321f98d450f6e4",
+  "images": [
+    {
+      "name": "hero",
+      "path": "demo/assets/screenshots/hero.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/hero.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 125614,
+      "sha256": "167ec3415ea4c1db71622dc9c32d699ad0952e05e59326b7e404f885eb310939"
+    },
+    {
+      "name": "original-portal",
+      "path": "demo/assets/screenshots/original-portal.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/original-portal.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 57230,
+      "sha256": "508e97ed888e0bdcfe32929c92cf929321fb5908130d7ba39200c2877c390af7"
+    },
+    {
+      "name": "processing-evidence",
+      "path": "demo/assets/screenshots/processing-evidence.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/processing-evidence.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 95375,
+      "sha256": "4b2941d3597e384ead098955dcd9b06c058292467002d1a8f75bb3554555232d"
+    },
+    {
+      "name": "guided-step",
+      "path": "demo/assets/screenshots/guided-step.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/guided-step.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 74195,
+      "sha256": "53394b9e191c86c01deda28c3f5badb65167c1fe440c59cc6df66eaaffa0ec65"
+    },
+    {
+      "name": "confirmation",
+      "path": "demo/assets/screenshots/confirmation.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/confirmation.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 81044,
+      "sha256": "be55ed5076ffe22e50caedfc7c44234aa42a9ecce21f3fa50cb9e1b380fd6b90"
+    },
+    {
+      "name": "outcome",
+      "path": "demo/assets/screenshots/outcome.png",
+      "url": "https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/outcome.png",
+      "status": 200,
+      "mime": "image/png",
+      "bytes": 72458,
+      "sha256": "03b5985af6360e9eed0aa956dae4a5ef716ac128a172d4ff5b19447d6a21565c"
+    }
+  ]
+}

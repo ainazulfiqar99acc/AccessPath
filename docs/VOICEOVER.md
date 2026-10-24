@@ -37,4 +37,4 @@ uv pip install --python .tools\kokoro\Scripts\python.exe -r demo\requirements-vo
 
 FFmpeg/FFprobe must be on PATH. The renderer downloads the pinned official model/voice when absent, caches raw scene audio locally, normalizes loudness, places each clip within its scene window, writes SRT/ASS, exports the MP4, and fully decodes it. It rejects a voice that differs from the recorded user selection. Updating the final voice requires a new explicit user selection and timeline update.
 
-No YouTube upload or external publication was performed.
+The [source repository](https://github.com/ainazulfiqar99acc/AccessPath) is public. The generated audio/video files remain local and are ignored by Git. No YouTube upload was performed.

@@ -2,6 +2,8 @@
 
 **Forms, made clearer. One step at a time.**
 
+[Public repository: ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath)
+
 AccessPath turns three deliberately confusing, **fictional local forms** into an accessible guided workflow. It reads actual HTML evidence, uses a local Qwen model to simplify the wording, keeps the originals beside the suggestions, and checks answers against the source constraints. A real Playwright browser fills and submits the fictional portal only after explicit confirmation.
 
 ![The actual AccessPath workspace](demo/assets/screenshots/workspace.png)
@@ -97,4 +99,4 @@ Qwen3 weights use [Apache 2.0](https://huggingface.co/Qwen/Qwen3-8B/blob/main/LI
 
 ## Publication status
 
-The application, genuine screenshots, and narrated video are complete locally. The user selected Liam for narration. GitHub account selection, public repository approval, YouTube handoff, and DEV review remain explicit checkpoints in `BUILD_PROMPT.md`. No account was selected and nothing was published. [Publication checklist](docs/PUBLISHING_CHECKLIST.md) tracks the remaining steps; [DEV draft](docs/DEV_SUBMISSION.md) is marked pending.
+The application, genuine screenshots, and narrated video are complete. The user selected Liam for narration and approved publication under [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath), which is public on branch `main`. Source and genuine screenshots are published; local data, credentials, model files, and generated audio/video remain excluded. YouTube handoff and final DEV review remain explicit checkpoints in `BUILD_PROMPT.md`. [Publication checklist](docs/PUBLISHING_CHECKLIST.md) tracks the remaining steps; [DEV draft](docs/DEV_SUBMISSION.md) is marked pending the actual YouTube URL and final review.

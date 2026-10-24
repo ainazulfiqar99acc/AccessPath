@@ -1,4 +1,4 @@
-> **PENDING DRAFT — not submission-ready.** No GitHub account or repository has been chosen, no screenshots are publicly hosted, and no YouTube URL has been supplied. The local working application, genuine screenshots, measured evaluation, and completed narrated video with the user's selected Liam voice are available. Replace this notice only after the approval checkpoints in `PUBLISHING_CHECKLIST.md` are completed. No public links below are invented.
+> **PENDING DRAFT — not submission-ready.** The [public repository](https://github.com/ainazulfiqar99acc/AccessPath) and verified screenshot URLs are available. The completed narrated video uses the user's selected Liam voice, but no YouTube URL has been supplied. Final challenge verification and user article review remain pending. Replace this notice only after the remaining checkpoints in `PUBLISHING_CHECKLIST.md` are completed.
 
 Title: **The Internet Is Open to Everyone. Filling Out Its Forms Isn't.**
 
@@ -26,22 +26,39 @@ A genuine Playwright recording shows the full scholarship journey using **Synthe
 
 The completed narrated video is 114.92 seconds at 1920×1080, encoded as H.264/yuv420p with Liam's voice and synchronized captions beneath the recorded screen. FFmpeg decoded the complete file without errors. It is saved locally as `demo/assets/video/final_demo.mp4`. The original silent recording remains available at `demo/assets/video/demo_silent.mp4`, and the recording script is `demo/record_demo.mjs`. Public hosting and a verified YouTube link are still pending.
 
-Actual screenshots available for final hosting are:
+These are screenshots from the actual application, hosted at verified immutable URLs in the public repository.
 
-- `demo/assets/screenshots/hero.png`: the working form picker.
-- `demo/assets/screenshots/original-portal.png`: the fictional source form and difficult language.
-- `demo/assets/screenshots/processing-evidence.png`: real Qwen suggestions beside the originals.
-- `demo/assets/screenshots/guided-step.png`: one question at a time.
-- `demo/assets/screenshots/confirmation.png`: full review and the explicit consent boundary.
-- `demo/assets/screenshots/outcome.png`: the actual local receipt.
+The workspace presents three supported fictional forms:
 
-The final article needs verified public screenshot URLs and the user's actual YouTube URL. Local filenames are included here as an honest record of available artifacts, not as working public embeds.
+![AccessPath's actual workspace and fictional form picker](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/hero.png)
+
+The original scholarship portal uses deliberately difficult language:
+
+![The actual fictional scholarship portal before guided completion](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/original-portal.png)
+
+Local explanations remain beside the source evidence:
+
+![Real Qwen-generated explanations alongside original labels and instructions](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/processing-evidence.png)
+
+The guided workflow asks one active question at a time:
+
+![The working wizard with an explicitly synthetic student's educational statement](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/guided-step.png)
+
+Answers are assembled for review before explicit consent:
+
+![The actual final review of synthetic application answers](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/confirmation.png)
+
+The separate fictional portal returns a real local receipt:
+
+![The verified receipt after the real browser submitted the fictional portal](https://raw.githubusercontent.com/ainazulfiqar99acc/AccessPath/8870fb6ea96d81bab044f78805321f98d450f6e4/demo/assets/screenshots/outcome.png)
+
+The final article still needs the user's actual YouTube URL; no video embed is invented here.
 
 ## Code
 
-The application source is complete in the local AccessPath workspace. A public repository is pending the user's GitHub account and visibility choice. No account has been selected and no remote has been changed.
+The complete source is public at [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath), on the `main` branch. The repository owner and public visibility were explicitly selected by the user.
 
-The project includes a reproducible README, dependency locks, MIT license, environment example, architecture guide, measured evaluation results, backend tests, Playwright journeys, axe scans, demonstration recorder, and a publication checklist. The final version of this section will link the approved, verified repository after publication.
+The repository includes a reproducible README, dependency locks, MIT license, environment example, architecture guide, measured evaluation results, backend tests, Playwright journeys, axe scans, demonstration recorder, and a publication checklist. Runtime data, credentials, dependency installations, and model weights are excluded.
 
 ## How I Built It
 

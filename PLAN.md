@@ -13,7 +13,8 @@
 - Fresh inference recorded for all 18 source fields. Actual screenshots and a 114.92-second 1080p silent demo recorded and decoded successfully.
 - README, dependency locks, architecture, evaluation, demo/narration draft, and pending DEV draft prepared. Services remain running on 3103/9313/9314.
 - User selected Liam for narration. The final voiceover, 29 timed subtitle cues, and 114.92-second 1080p narrated MP4 are complete and verified. No voice-tool mention appears in the spoken text or captions.
+- User approved public GitHub publication under `ainazulfiqar99acc/AccessPath`. Source is pushed to `main`; six immutable public screenshot URLs were verified against local image hashes.
 
 ## Pending external/user checkpoints
 
-GitHub owner/visibility choice and authorized push; public screenshot URLs; user YouTube upload and URL; verified final article and review. No external publication has occurred.
+User YouTube upload and URL; verified final article and review. The GitHub repository is public; no video upload or DEV publication has occurred.
