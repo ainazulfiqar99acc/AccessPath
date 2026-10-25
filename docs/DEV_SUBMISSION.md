@@ -1,4 +1,4 @@
-Title: **The Internet Is Open to Everyone. Filling Out Its Forms Isn't.**
+Title: **AccessPath: Clearer Forms, One Question at a Time**
 
 Tags: `devchallenge`, `hf26challenge`, `ai`.
 
@@ -10,7 +10,7 @@ A student finds an education opportunity and opens its application. Before writi
 
 Then comes the quiet repetition: rereading an instruction, checking whether a question applies, scrolling back to find a limit, and worrying that a misunderstood phrase will undo the whole application.
 
-That student is a fictional protagonist. The problem is the starting point for **AccessPath**, a form guide that uses open-weight AI to explain difficult wording, keeps the source instructions visible, and takes the user through one question at a time.
+I built **AccessPath** to make that journey easier to follow: a web application that uses open-weight AI to explain difficult form wording, keeps the source instructions visible, and takes the user through one question at a time. The student is a fictional protagonist, and the application demonstrates the complete workflow with fictional forms and synthetic answers.
 
 The working application supports three fictional forms: a student scholarship application, a community workshop registration, and a household support enquiry. It parses their actual HTML, uses Qwen through Groq for plain-language suggestions, and checks answers against source-derived rules. Users review preparation items, complete the active questions, save progress, and explicitly confirm before anything is submitted.
 
@@ -54,7 +54,7 @@ The outcome is a receipt read from the separate portal:
 
 The project is public under the MIT license. The repository includes dependency locks, setup instructions, the Dockerfile and Render Blueprint, architecture documentation, evaluation evidence, backend tests, public Playwright journeys, and recording scripts. Actual screenshots are hosted at immutable commit URLs.
 
-Credentials, runtime databases, model weights, dependency installations, and generated large audio/video files are excluded from Git. The README also documents a local Ollama/Qwen configuration for contributors who want to run the stack themselves.
+Credentials, runtime databases, model weights, dependency installations, and generated large audio/video files are excluded from Git. Contributors can follow the README to run the application and reproduce its checks.
 
 ## How I Built It
 
@@ -72,7 +72,7 @@ The deployed application uses **Qwen 3.8 27B through Groq**, with strict JSON Sc
 
 Qwen returns plain labels and short explanations. Application guards require its field IDs to match the source and reject numbers absent from that field's prose, options, or HTML attributes. Other filters reject selected unsupported claims about eligibility, deadlines, payment, uploads, and required wording for optional fields.
 
-One development failure exposed a useful detail: Qwen mentioned a 120-character email limit that the prose did not contain. The input did have `maxlength="120"`. The validator needed to account for parsed HTML constraints as well as visible instructions. Fixing that made the evidence check more accurate.
+HTML attributes matter as much as visible prose. For example, an email field can specify `maxlength="120"` without repeating that limit in its instructions. The evidence check includes parsed HTML constraints so that an explanation can reference a genuine limit without inventing one.
 
 The guards still cannot prove every paraphrase faithful. The UI labels AI wording as a suggestion and preserves the source beside it. Checked source-only explanations are cached to conserve the provider's finite quota. Rate-limit errors remain visible, with the original guidance available.
 
@@ -90,7 +90,7 @@ Render runs one Docker web service. Next.js builds the React interface as a stat
 
 This architecture avoids running a Node server alongside Python and Chromium in the roughly 512 MiB Free container. It still hosts the functional interface, API, storage, and browser action together. Readiness checks validate startup configuration, and browser execution has a deadline and a concurrency limit.
 
-During verification and recording, Render's 30-second memory samples reached approximately **324 MiB**. That is a sampled maximum, not an instantaneous peak or evidence of multi-user load capacity. Free hosting also brings cold starts and ephemeral storage. The application does not silently upgrade to paid compute or switch to paid inference.
+During verification and recording, Render's 30-second memory samples reached approximately **324 MiB**. That is a sampled maximum, not an instantaneous peak or evidence of multi-user load capacity. Free hosting also brings cold starts and ephemeral storage. Paid compute and paid inference are never selected automatically.
 
 ### Make hosted privacy explicit
 
@@ -114,7 +114,7 @@ The public suite completed in **48.2 seconds**. That is test execution time, not
 
 ## Why Does Open Innovation Matter?
 
-Open weights make the language layer a component contributors can inspect, run, and change. AccessPath uses [Apache 2.0 Qwen weights](https://huggingface.co/Qwen/Qwen3.8-27B) for hosted explanations, and its documented local configuration uses Qwen3-8B through Ollama. A contributor can run that local path, inspect the model digest, reproduce fixture evaluations, and examine generated wording beside the source.
+Open weights make the language layer a component contributors can inspect, run, and change. AccessPath uses [Apache 2.0 Qwen weights](https://huggingface.co/Qwen/Qwen3.8-27B) for explanations. Contributors can examine generated wording beside the source, reproduce the application checks, and investigate how a different supported model affects explanation quality.
 
 Groq makes the public demo practical without requiring visitors to install a model. That convenience has tradeoffs: inference depends on a provider, free quota is limited, and the hosted endpoint does not expose a verifiable weights digest. Open weights alone do not make a hosted service private or independent. The storage and inference boundaries still need to be explained.
 
