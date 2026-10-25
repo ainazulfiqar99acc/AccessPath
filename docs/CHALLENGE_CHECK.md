@@ -11,7 +11,7 @@ The theme is **Slow and Steady**. The project needs open-source AI at its core, 
 
 AccessPath's core local Qwen inference, source-derived workflow, public MIT repository, real screenshots, measured developer checks, and recorded demo are documented. This is a project-format check, not a guarantee of personal eligibility or acceptance by the judges.
 
-No implemented integration supports a claim to one of the listed partner categories. The article is prepared for the overall challenge, without a partner category claim. Optional agent-session material is omitted because there is no genuine public session URL.
+The original published local version made no partner-category claim. The later, verified Render deployment now supports a Best Use of Render section in the prepared update: Render hosts the functional frontend, API and fictional-portal browser runtime. The live article still needs the user's review/update; this is not a claim that judges have accepted eligibility. Optional agent-session material is omitted because there is no genuine public session URL.
 
 The prescribed article sections remain in order: What I Built; Demo; Code; How I Built It; Why Does Open Innovation Matter?; The Lazy Payoff. Unsupported optional sections are omitted. The author must review the final article and publish it manually; this agent will not publish it automatically.
 

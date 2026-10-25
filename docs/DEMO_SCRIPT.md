@@ -21,3 +21,17 @@ Verified recording: 117.68 seconds at 1920×1080; full FFmpeg decode passed. Abs
 Run `.\.venv\Scripts\python.exe demo\retime_narration.py` after recording, then the narration command in `VOICEOVER.md`. Scene timestamps come from the actual browser run rather than an assumed fixed duration. The current edit removes a 4.96-second initial loading lead-in; it does not shorten the real inference wait.
 
 The final narration script is in `demo/assets/audio/narration_script.md`. The user selected Liam. The completed narrated video is `demo/assets/video/final_demo.mp4`, with synchronized speech, burned captions in a separate band, and an additional subtitle track. The spoken text and captions do not mention the voice-generation tool, as requested. `demo/assets/audio/final-verification.json` records the full decode, timing, caption coverage, and audio-level checks. GitHub source and screenshots are public. The user uploaded the refreshed video at https://youtu.be/VmlFZgN95ro; metadata, embedding, duration, and current-theme thumbnail were verified.
+
+## Actual Render recording
+
+The separate hosted recording uses https://accesspath-demo.onrender.com and the fixed sample answers. Its source explanation is a checked cache hit from genuine Groq inference; the recorder does not clear the public cache. It shows the original portal, source evidence, guided completion, disabled submission before consent, an actual private-portal receipt, and draft deletion. The earlier local recording is preserved.
+
+```powershell
+$env:ACCESSPATH_DEPLOYED_URL = 'https://accesspath-demo.onrender.com'
+npm run demo:render
+.\.venv\Scripts\python.exe demo\prepare_render_narration.py
+.\.tools\kokoro\Scripts\python.exe demo\narrate_demo.py --asset-root demo/assets/render --voice am_liam
+.\.venv\Scripts\python.exe demo\verify_voiceover.py --asset-root demo/assets/render
+```
+
+The narration command uses the task-local voice environment documented in `VOICEOVER.md`. The verified output is `demo/assets/render/video/final_demo.mp4`, 91.92 seconds at 1920x1080, with Liam narration and 21 exact captions in a separate bottom band. Final audio/video durations match, the full file decodes, and no PCM samples clip. Measured audio is -16.16 LUFS and -1.35 dBTP. Evidence, scene timings, script and subtitles are saved under `demo/assets/render/`. A new YouTube upload remains a user handoff.

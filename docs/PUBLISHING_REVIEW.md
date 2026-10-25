@@ -18,3 +18,13 @@ The first source commit, `8870fb6ea96d81bab044f78805321f98d450f6e4`, was verifie
 The user completed the YouTube upload and manually published the [DEV article](https://dev.to/zedaina/the-internet-is-open-to-everyone-filling-out-its-forms-isnt-18l5). Its public page and API returned HTTP 200. The current video embed, six accessible screenshots, source link, correct section order, required tags, and article body were verified. The agent did not publish or edit the live post. See `dev-publication-evidence.json`.
 
 The redesigned source and screenshots were pushed and verified at `8b5443a05e6e18ce152a99e0610a405a955fc8fd`. All six current article PNG URLs pinned to this commit returned HTTP 200 and matched local SHA-256 values. The user supplied the refreshed upload at https://youtu.be/VmlFZgN95ro. The 118-second platform duration, playability, embedding, and midnight-blue thumbnail were verified; see `youtube-evidence.json`.
+
+## Verified Render update
+
+The user subsequently approved pushing and deploying the public Synthetic Demo. The functional app is live at https://accesspath-demo.onrender.com on Render Free, from runtime source commit `82d76d8c2d7b20dbc487843df9f05f2f8cecfafe`. Automatic deployments are off; subsequent media and documentation commits do not change that running source. No paid compute plan was selected.
+
+All three actual public browser journeys passed, including real Groq guidance, browser-owner isolation, consent, genuine fictional-portal submission, deletion, keyboard navigation and mobile reflow. The expanded backend suite has 40 passing tests, with the five original local browser tests preserved. Render's 30-second memory samples reached approximately 324 MiB against a roughly 512 MiB limit; this is neither a continuous peak nor a concurrent-user load test.
+
+Eight genuine public screenshots were published at immutable commit `023679f886658368868c25a69e07a4751a43a9c4`. Every URL returned HTTP 200 and matched its local bytes and SHA-256 hash; see `render-published-screenshots.json`. Source/provider/model evidence is in `render-deployment-evidence.json`, with sampled memory in `render-memory-evidence.json`.
+
+The new narrated Render video is complete locally at `demo/assets/render/video/final_demo.mp4`: 91.92 seconds, 1920x1080, Liam narration, and 21 synchronized captions. Full decode, caption coverage and audio-level checks passed. The existing YouTube upload and live DEV post still describe the earlier local version. `DEV_RENDER_ADDENDUM.md` and `DEV_SUBMISSION.md` are marked review copies. Uploading the new video and reviewing/pasting the article remain user handoffs under `BUILD_PROMPT.md`; neither account was chosen or changed automatically.

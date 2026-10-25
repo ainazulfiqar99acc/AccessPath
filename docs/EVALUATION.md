@@ -43,3 +43,11 @@ The demonstrated improvement is structural: a source form with 8 fields becomes 
 Automated accessibility scans do not certify WCAG 2.2 AA. AI paraphrases can still be wrong. Supported adapters are deliberately limited to the included local forms. Audio interaction, real-agency adapters, automatic crash reconciliation, database encryption, and multi-user authentication remain unimplemented.
 
 An additional default-rule axe homepage scan after the redesign?s landmark review reported zero violations. This supplements the eight selected WCAG-rule view checks; it does not establish conformance.
+
+## Actual Render Free verification, 25 October 2026
+
+The live Linux Docker deployment at https://accesspath-demo.onrender.com passed all three public browser tests in 48.2 seconds: hosted Qwen scholarship guidance through actual portal receipt and deletion, keyboard-only community save/resume and completion, and mobile reading controls/source inspection. The three public selected-rule axe scans reported zero violations, without claiming certification. The expanded backend suite has 40 passing tests. The five earlier local browser journeys remain preserved.
+
+Render reports approximately 512 MiB of memory. Its 30-second samples reached approximately 324 MiB during public verification/recording; this is not a continuous peak or a load-test result. The service remains Free with automatic deploys off. See `render-deployment-evidence.json` and `render-memory-evidence.json`.
+
+The genuine hosted recording is 91.92 seconds at 1920x1080 with Liam narration and 21 synchronized captions. Final audio/video durations match, captions cover the script exactly, PCM clipping is zero, and the entire MP4 decoded. Audio measured -16.16 LUFS and -1.35 dBTP. Captions stay in a separate bottom band. The narrated file is local at `demo/assets/render/video/final_demo.mp4`; it preserves the earlier published local demo. A replacement Render-specific YouTube upload and final article review remain user handoffs.

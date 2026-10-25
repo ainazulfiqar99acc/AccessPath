@@ -6,7 +6,7 @@
 
 **Try the live Synthetic Demo:** [accesspath-demo.onrender.com](https://accesspath-demo.onrender.com). It runs on Render Free with the Next.js frontend exported into the Python web service, real hosted Groq/Qwen explanations, and actual confirmed browser submission to the private fictional portal. Use the supplied sample answers only. Hosted drafts are temporary server data, isolated by browser cookie, and expire within two hours; free-service sleep/restarts can remove them sooner. See [deployment notes](docs/RENDER_DEPLOYMENT.md) and [verified public evidence](docs/render-deployment-evidence.json).
 
-AccessPath turns three deliberately confusing, **fictional local forms** into an accessible guided workflow. It reads actual HTML evidence, uses a local Qwen model to simplify the wording, keeps the originals beside the suggestions, and checks answers against the source constraints. A real Playwright browser fills and submits the fictional portal only after explicit confirmation.
+In its default local mode, AccessPath turns three deliberately confusing, **fictional forms** into an accessible guided workflow. It reads actual HTML evidence, uses local Qwen to simplify the wording, keeps the originals beside the suggestions, and checks answers against the source constraints. A real Playwright browser fills and submits the fictional portal only after explicit confirmation.
 
 The interface has been redesigned throughout with a midnight-blue palette, horizontal navigation, form rows, blue-and-amber controls, and responsive reading preferences. The screenshot below shows that design in the live hosted mode.
 
