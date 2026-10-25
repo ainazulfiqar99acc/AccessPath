@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-25T17:52:27.724705+00:00",
+  "url": "https://youtu.be/odkNzMn_yWw",
+  "video_id": "odkNzMn_yWw",
+  "title": "Acess-path-render",
+  "channel": "Aina",
+  "duration_seconds": 92,
+  "local_video_seconds": 91.92,
+  "oembed_http_status": 200,
+  "watch_http_status": 200,
+  "playability_status": "OK",
+  "playable_in_embed": true,
+  "thumbnail_http_status": 200,
+  "scope": "Public metadata and thumbnail verification; not full streamed playback or byte identity with the transcoded upload.",
+  "matches_hosted_demo_thumbnail": true,
+  "visual_check": "Public thumbnail shows the hosted Synthetic Demo notice, study-level wizard, midnight-blue interface and caption band; rounded 92-second duration agrees with the 91.92-second local recording."
+}

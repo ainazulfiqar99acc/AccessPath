@@ -89,7 +89,7 @@ Render deployment `dep-dbf128o473hc73bfuqp0` is live from source commit `82d76d8
 
 The actual public recording is complete at `demo/assets/render/video/final_demo.mp4`: 91.92 seconds, 1920x1080, Liam narration, 21 exact synchronized captions, matching audio/video durations, zero clipped PCM samples, and full decode passed. Audio measured -16.16 LUFS and -1.35 dBTP. Genuine screenshots and recording/voice evidence are under `demo/assets/render/`. The source explanation in the recording is a checked cache hit from real Groq inference, not a fabricated or manually substituted response.
 
-The earlier local YouTube demo is preserved. A new Render video upload remains a user handoff under `BUILD_PROMPT.md`; no YouTube account is selected or upload performed automatically. The Render addendum and article changes are prepared for review, and the live DEV post has not been edited by the agent.
+The user supplied https://youtu.be/odkNzMn_yWw. Its public metadata reports 92 seconds, playability OK, and embedding enabled; its thumbnail shows the hosted Synthetic Demo. See `render-youtube-evidence.json`. The complete standalone article is `DEV_SUBMISSION.md`, with the actual video embed and immutable public screenshots. Author review and manual DEV publication remain; the agent has made no authenticated DEV changes.
 
 ## Primary references checked 25 October 2026
 

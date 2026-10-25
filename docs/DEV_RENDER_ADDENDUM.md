@@ -1,6 +1,6 @@
-> REVIEW COPY — the Render deployment and public screenshots are verified. Insert the update below under **How I Built It**, then append **Prize Categories** after the existing final section. A new 91.92-second narrated Render recording is complete locally; its YouTube upload remains a user handoff. The existing YouTube video shows the earlier local version. The live DEV post has not been changed by the agent.
+> Supporting deployment notes. The complete standalone post is [DEV_SUBMISSION.md](DEV_SUBMISSION.md). It embeds the verified 92-second public demo at https://youtu.be/odkNzMn_yWw and genuine hosted screenshots. Author review and manual publication remain.
 
-### Render update: try the complete hosted journey
+### AccessPath on Render
 
 [Open the live AccessPath Synthetic Demo](https://accesspath-demo.onrender.com). Render hosts the functional application: form selection, parsed evidence, checked AI explanations, guided answers, explicit confirmation, an actual browser submission to the fictional portal, and its receipt. Use the supplied sample answers only.
 
