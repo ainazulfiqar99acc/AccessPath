@@ -1,0 +1,33 @@
+# Free public service on a Hobby workspace. Public exposure still requires approval.
+services:
+  - type: web
+    name: accesspath-demo
+    runtime: docker
+    repo: https://github.com/ainazulfiqar99acc/AccessPath
+    branch: main
+    region: singapore
+    plan: free
+    numInstances: 1
+    autoDeployTrigger: "off"
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/readyz
+    maxShutdownDelaySeconds: 30
+    envVars:
+      - key: ACCESSPATH_MODE
+        value: hosted
+      - key: SYNTHETIC_DEMO
+        value: "true"
+      - key: AI_PROVIDER
+        value: groq
+      - key: GROQ_MODEL
+        value: qwen/qwen3.8-27b
+      - key: GROQ_API_KEY
+        sync: false
+      - key: AI_TIMEOUT_SECONDS
+        value: "120"
+      - key: DEMO_TTL_SECONDS
+        value: "7200"
+      - key: ACCESSPATH_DATA
+        value: /tmp/accesspath
+      - key: PORTAL_URL
+        value: http://127.0.0.1:9314

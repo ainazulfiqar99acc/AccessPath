@@ -8,7 +8,9 @@
     "start": "next start --hostname 127.0.0.1 --port 3103",
     "typecheck": "tsc --noEmit",
     "test:e2e": "playwright test",
-    "demo:record": "node demo/record_demo.mjs"
+    "demo:record": "node demo/record_demo.mjs",
+    "test:render": "playwright test --config playwright.render.config.ts",
+    "demo:render": "node demo/record_render_demo.mjs"
   },
   "dependencies": {
     "next": "16.4.3",

@@ -1,0 +1,3 @@
+# Optional local Blueprint validation tools; not installed into the runtime image.
+PyYAML==6.0.3
+jsonschema==4.25.1

@@ -435,3 +435,12 @@ code { font: .75rem/1.6 Consolas, monospace; overflow-wrap: anywhere; }
 @media (prefers-reduced-motion: reduce) {
   *, *:before, *:after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+.synthetic-notice { border: 1px solid #d4b36b; border-radius: 12px; background: #262316; padding: 20px 24px; margin-bottom: 28px; color: #faf1d5; }
+.synthetic-notice > strong { font-size: .8125rem; letter-spacing: .07em; }
+.synthetic-notice p { font-size: .875rem; line-height: 1.7; margin: 10px 0 14px; max-width: 85ch; }
+.synthetic-notice label { display: flex; align-items: flex-start; gap: 10px; font-size: .875rem; line-height: 1.6; cursor: pointer; }
+.synthetic-notice input { margin-top: 4px; flex-shrink: 0; }
+.sample-answer { display: inline-flex; margin: 0 0 16px; padding: 10px 14px; border: 1px solid #8dbdf5; border-radius: 7px; background: #172b45; color: #e4f0ff; font: inherit; cursor: pointer; }
+.sample-answer:hover { background: #223e5f; }
+input[readonly], textarea[readonly] { border-style: dashed; }
+@media (max-width: 600px) { .synthetic-notice { padding: 17px; } }

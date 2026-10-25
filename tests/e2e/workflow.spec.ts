@@ -2,6 +2,8 @@ import { test, expect, type Page } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import fs from 'node:fs/promises';
 
+const screenshots=process.env.ACCESSPATH_SCREENSHOT_DIR||'demo/assets/screenshots';
+
 async function checkA11y(page:Page,name:string){
   const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();
   await fs.mkdir('test-results/accessibility',{recursive:true});
@@ -19,15 +21,15 @@ test('workspace accessibility, mobile layout and reading preferences',async({pag
   await page.goto('/');
   await expect(page.getByRole('article')).toHaveCount(3);
   await checkA11y(page,'workspace');
-  await fs.mkdir('demo/assets/screenshots',{recursive:true});
-  await page.screenshot({path:'demo/assets/screenshots/workspace.png',fullPage:true});
+  await fs.mkdir(screenshots,{recursive:true});
+  await page.screenshot({path:`${screenshots}/workspace.png`,fullPage:true});
   await page.getByRole('button',{name:'Reading preferences'}).click();
   await page.getByLabel('Larger text').check();
   await page.getByLabel('High contrast').check();
   await page.setViewportSize({width:390,height:844});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
   await checkA11y(page,'mobile-large-contrast');
-  await page.screenshot({path:'demo/assets/screenshots/mobile.png',fullPage:true});
+  await page.screenshot({path:`${screenshots}/mobile.png`,fullPage:true});
 });
 
 test('real local scholarship completion, explicit confirmation and deletion',async({page})=>{
@@ -39,7 +41,7 @@ test('real local scholarship completion, explicit confirmation and deletion',asy
     await page.getByRole('button',{name:'Explain this form'}).click();
     await expect(page.getByText('A little less jargon.')).toBeVisible({timeout:250000});
     await checkA11y(page,'analysis');
-    await page.screenshot({path:'demo/assets/screenshots/analysis.png',fullPage:true});
+    await page.screenshot({path:`${screenshots}/analysis.png`,fullPage:true});
     await page.getByRole('button',{name:'Get ready',exact:true}).click();
     await checkA11y(page,'checklist');
     await page.getByRole('main').getByRole('checkbox').nth(0).check();
@@ -57,7 +59,7 @@ test('real local scholarship completion, explicit confirmation and deletion',asy
     await page.locator('#answer-support_details').fill('Synthetic Learning Fund');await next(page);
     await page.locator('#answer-statement').fill('I want to study accessible design and make everyday services easier to use.');
     await checkA11y(page,'wizard');
-    await page.screenshot({path:'demo/assets/screenshots/wizard.png',fullPage:true});
+    await page.screenshot({path:`${screenshots}/wizard.png`,fullPage:true});
     await next(page);
     await page.locator('#answer-declaration').check();
     await page.getByRole('button',{name:'Review my answers'}).click();
@@ -65,13 +67,13 @@ test('real local scholarship completion, explicit confirmation and deletion',asy
     const send=page.getByRole('button',{name:'Confirm & submit demo'});
     await expect(send).toBeDisabled();
     await checkA11y(page,'review');
-    await page.screenshot({path:'demo/assets/screenshots/review.png',fullPage:true});
+    await page.screenshot({path:`${screenshots}/review.png`,fullPage:true});
     await page.getByRole('checkbox').check();
     await send.click();
     await expect(page.getByRole('heading',{name:'You made it through.'})).toBeVisible({timeout:45000});
     await expect(page.locator('.receipt strong')).toHaveText(/^AP-[A-F0-9]+$/);
     await checkA11y(page,'success');
-    await page.screenshot({path:'demo/assets/screenshots/completed.png',fullPage:true});
+    await page.screenshot({path:`${screenshots}/completed.png`,fullPage:true});
     await page.getByRole('button',{name:'View activity & privacy'}).click();
     await expect(page.getByText('submission confirmed',{exact:true})).toBeVisible();
     await expect(page.locator('.event-list')).not.toContainText('student@example.org');

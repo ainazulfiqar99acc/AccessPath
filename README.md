@@ -4,6 +4,8 @@
 
 [Public repository: ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath)
 
+**Render upgrade:** a hosted Synthetic Demo mode is prepared locally, with Docker/Blueprint configuration, browser-bound drafts, expiry, sample-only inputs, a Next.js static export and a Groq Free-tier Qwen adapter. The user approved the GitHub push and public Free-service deployment. Rollout and public verification are in progress; no paid resource is authorized. See the [deployment review](docs/RENDER_DEPLOYMENT.md) for the architecture, Free-plan limits, configuration and remaining live checks. No public application URL is claimed.
+
 AccessPath turns three deliberately confusing, **fictional local forms** into an accessible guided workflow. It reads actual HTML evidence, uses a local Qwen model to simplify the wording, keeps the originals beside the suggestions, and checks answers against the source constraints. A real Playwright browser fills and submits the fictional portal only after explicit confirmation.
 
 The interface has been redesigned throughout with a midnight-blue palette, horizontal navigation, form rows, blue-and-amber controls, and responsive reading preferences. The current screenshots below show that design.
@@ -47,7 +49,7 @@ npm run build
 npm start
 ```
 
-Use the same `ACCESSPATH_BUILD_DIR` for build and start. `scripts/start.ps1` starts development mode. A Docker setup is not included: keeping the existing host Ollama and portal strictly on loopback avoids introducing cross-container network exceptions in this initial version.
+Use the same `ACCESSPATH_BUILD_DIR` for build and start. `scripts/start.ps1` starts development mode. The optional Render Docker image builds a Next.js static export and serves it with the API and fictional portal in one Python container, preserving loopback-only automation. Hosted mode uses explicitly configured external inference; it does not connect to your workstation's Ollama.
 
 ## Try the real workflow
 
@@ -74,7 +76,7 @@ There is one current draft per browser. Delete the existing saved form before st
 ## Tests and evidence
 
 ```powershell
-.\.venv\Scripts\python.exe -m pytest tests\test_backend.py -q
+.\.venv\Scripts\python.exe -m pytest tests\test_backend.py tests\test_hosted.py -q
 npm run typecheck
 npm run test:e2e
 .\.venv\Scripts\python.exe -m scripts.evaluate
@@ -91,9 +93,9 @@ Watch the [current narrated demonstration on YouTube](https://youtu.be/VmlFZgN95
 
 ## Privacy and limits
 
-This is a single-user local prototype for the three included fictional forms. It does not automate real agencies, make eligibility decisions, upload documents, or support arbitrary websites. No CAPTCHA or authentication bypass exists. There is no cloud AI fallback and no canned model response.
+The default is a local prototype for the three included fictional forms. The optional hosted mode is an anonymous, synthetic-only demo with isolated browser ownership; it is not a service for real applicants. Neither mode automates real agencies, makes eligibility decisions, uploads documents, or supports arbitrary websites. No CAPTCHA or authentication bypass exists. Local mode has no cloud fallback; hosted inference is an explicit configuration with its own privacy disclosure. Neither mode invents model responses.
 
-Draft answers are **not encrypted at rest**. A high-entropy draft identifier in browser localStorage acts as a local capability. Use a trusted private device. Continue/save commits edits; unsaved typing can be lost on a browser refresh. Deletion removes the selected draft and its activity from the app database, not screenshots, videos, operating system backups, or copies you made. The fictional portal returns a receipt without retaining applicant values.
+Draft answers are **not application-encrypted at rest**. New drafts are bound to an HttpOnly browser cookie as well as their high-entropy draft ID; older local drafts retain their original capability semantics. Hosted mode requires a Secure cookie, fixed sample text, temporary server storage and a maximum two-hour draft lifetime. Hosted answers are stored on Render, not on the visitor's device; fictional instructions go to the configured external inference provider. Continue/save commits edits; unsaved typing can be lost on refresh. Deletion removes the selected draft and its activity from the app database, not screenshots, videos, platform backups or copies you made. The fictional portal returns a receipt without retaining applicant values.
 
 Source-derived constraints are authoritative. Model output checks are structural and partial semantic guards, not a proof of faithful paraphrasing. A model can still make a mistake without triggering them. Browser automation has no tools available to the model; reviewed user input and fixed selectors control it. Automated axe scans cannot certify WCAG 2.2 AA, and no usability study with disabled participants has been conducted.
 

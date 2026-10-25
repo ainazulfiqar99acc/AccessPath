@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-10-25T14:06:38.668914+00:00",
+  "status": "prepared locally; approval required before push and public deployment",
+  "public_url": null,
+  "linux_container_executed": false,
+  "docker_engine_note": "Local Docker Linux engine was not running; no engine or shared service was started.",
+  "backend": {
+    "passed": 40,
+    "failed": 0,
+    "existing_tests_preserved": 11
+  },
+  "local_browser": {
+    "passed": 5,
+    "stats": {
+      "startTime": "2026-10-25T13:09:17.766Z",
+      "duration": 34545.059,
+      "expected": 5,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "inference": "Real existing local Ollama/Qwen; actual Playwright fictional-portal submission.",
+    "base_url": "http://127.0.0.1:3113"
+  },
+  "hosted_boundary_browser": {
+    "passed": 3,
+    "stats": {
+      "startTime": "2026-10-25T13:58:12.397Z",
+      "duration": 32939.525,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "base_url": "https://lvh.me:9443",
+    "network_scope": "Loopback-only HTTPS harness with secure cookies",
+    "inference": "Real Groq Qwen request through the exported frontend and Python gateway; actual private-portal Playwright submission.",
+    "is_public_render_deployment": false,
+    "runtime": "Next static export served by Python; no Next Node runtime"
+  },
+  "hosted_selected_wcag_violations": {
+    "analysis": 0,
+    "mobile-large-contrast": 0,
+    "review": 0
+  },
+  "axe_certification": false,
+  "production_build": "passed",
+  "typescript": "passed",
+  "render_blueprint": {
+    "schema_url": "https://render.com/schema/render.yaml.json",
+    "schema_sha256": "8a3fb8da6b4f55fe686fbefa790e011d3dd7895f013f355953c572a21ab6494a",
+    "valid": true,
+    "scope": "JSON Schema structural validation; no infrastructure created or Render API validation performed",
+    "plan": "free"
+  },
+  "hosted_provider_discovery": {
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "models_endpoint_verified": true,
+    "license": "Apache-2.0",
+    "license_source": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "free_limits_source": "https://console.groq.com/docs/rate-limits"
+  },
+  "live_hosted_inference_verified": true,
+  "public_recording_created": false,
+  "upgrade_pushed": false,
+  "paid_resources_created": false,
+  "source_credential_pattern_scan": {
+    "text_files": 89,
+    "credential_matches": 0,
+    "excluded_runtime_paths": 0
+  },
+  "render_plan": "free",
+  "workspace_plan_intent": "hobby",
+  "credits_required": false,
+  "static_export_build": "passed",
+  "node_server_in_render_runtime": false,
+  "render_linux_memory_limit_verified": false
+}

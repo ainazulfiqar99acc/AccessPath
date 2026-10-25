@@ -1,6 +1,9 @@
 node_modules/
 .next/
 .next-production/
+.next-upgrade/
+.next-export-build/
+out/
 *.tsbuildinfo
 .venv/
 .tools/
@@ -9,6 +12,9 @@ __pycache__/
 *.pyc
 .env
 .env.local
+.env.*
+!.env.example
+!.env.render.example
 data/
 logs/
 test-results/
@@ -16,4 +22,5 @@ playwright-report/
 demo/assets/video/*
 demo/assets/audio/*.wav
 demo/assets/audio/*.mp3
+demo/assets/render/video/
 !.gitkeep

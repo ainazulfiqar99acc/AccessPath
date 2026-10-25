@@ -21,3 +21,19 @@ The user approved the public GitHub repository [ainazulfiqar99acc/AccessPath](ht
 - [x] User published the article manually and supplied its live URL. Verify public page/API, new video embed, all six screenshots, source link, and required tags. See `dev-publication-evidence.json`. The agent made no authenticated DEV changes.
 
 Do not invent links, model responses, participants, timing savings, narrated video artifacts, or challenge eligibility. Gemma and its category are excluded. The user-published article is live and verified. All project publication checkpoints are complete.
+
+## New Render upgrade checkpoints
+
+The earlier local-project publication is complete. `update.txt` requests a new real Render integration, with fresh approval before pushing or exposing resources. No Render category claim has been added to the live post.
+
+- [x] Prepare the existing app for one Render container and preserve strict fictional-portal automation.
+- [x] Implement hosted source-only inference configuration and disclose hosted storage/privacy.
+- [x] Add synthetic samples, browser ownership, expiry, limits, readiness checks and deadlines.
+- [x] Pass local backend/browser/production/schema checks; distinguish provider test doubles from actual hosted evidence.
+- [x] Prepare deployment review, public browser tests/recorder and gated DEV addendum.
+- [x] User approved pushing changes and creating the public Free service in Aina's workspace. No paid upgrade or paid resource was authorized.
+- [ ] Configure the selected Render account and server-side Groq token securely.
+- [ ] Build/deploy the Linux image and verify the actual public Render URL and live hosted Qwen.
+- [ ] Run public submission/deletion, isolation, keyboard, mobile and accessibility checks.
+- [ ] Capture actual Render screenshots/video and generate narration describing hosted storage/inference.
+- [ ] Review and approve further pushes, media handoff and the live DEV addendum under the new publication rules.

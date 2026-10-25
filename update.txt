@@ -1,0 +1,62 @@
+# EXISTING PROJECT UPGRADE — ACCESSPATH
+## Target: Best Use of Render ($200)
+
+You are modifying an ALREADY BUILT, TESTED, AND PUBLISHED AccessPath repository.
+
+DO NOT rebuild the application.
+
+Preserve its Next.js frontend, FastAPI backend, fictional form portals, HTML parsing, local Qwen explanations, original-source validation, accessible wizard, consent confirmation, Playwright submission, audit controls, and tests.
+
+### Mission
+
+Deploy a meaningful, fully working version of AccessPath on Render so judges can try the accessible form guidance without installing the application locally.
+
+Render must host a genuine functional application or AI-serving component, not merely a static landing page.
+
+### Required changes
+
+1. Audit existing services, ports, dependencies, environment variables, and deployment assumptions.
+2. Select a Render-compatible architecture for the frontend, API, and fictional form portal.
+3. Investigate practical open-weight model inference options. Do not assume the existing local Ollama endpoint will be accessible from Render.
+4. If necessary, use a compatible hosted open-weight inference endpoint, with the privacy and deployment tradeoff disclosed.
+5. Create Render configuration files and deployment instructions.
+6. Configure environment variables and secret handling securely.
+7. Add production health checks, startup validation, request timeouts, and clear error states.
+8. Restrict browser automation to the explicitly approved fictional portal.
+9. Revisit the existing loopback-only browser origin policy for deployment without weakening its allowlist.
+10. Ensure submitted data cannot reach real government or scholarship websites.
+11. Add a prominent Synthetic Demo notice.
+12. Protect demo users from seeing one another's drafts or answers.
+13. Implement appropriate storage and session isolation for public deployment.
+14. Test the complete deployed flow: select form, interpret fields, review answers, confirm, submit to fictional portal, receive receipt, and delete draft.
+15. Verify keyboard navigation and mobile layouts on the deployed site.
+16. Add deployment diagnostics and clearly report any feature that remains local-only.
+
+### Demo
+
+Record a real browser journey using the publicly deployed Render application.
+
+Show the original confusing scholarship form, AI-generated explanation, guided completion, explicit consent, and genuine fictional-portal receipt.
+
+### Deliverables
+
+- Real Render deployment configuration
+- Verified public application URL
+- Working deployed AI functionality
+- Secure synthetic-demo configuration
+- End-to-end deployment tests
+- Updated README and architecture diagram
+- Real screenshots and new demo
+- DEV article addendum for Best Use of Render
+
+### Publication rules
+
+Do not invent a deployed URL.
+
+Ask before creating paid resources or exposing services publicly.
+
+Do not claim that private applicant data stays local if hosted inference or storage is used.
+
+Ask before pushing or publishing changes.
+
+No Gemma. No rebuild. No fake hosted demo.

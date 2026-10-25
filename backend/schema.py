@@ -54,6 +54,7 @@ class ModelExplanation(BaseModel):
 
 class CreateSession(BaseModel):
     form_id: Literal['scholarship', 'community', 'benefit']
+    synthetic_ack: bool = False
 
 
 class UserAnswer(BaseModel):

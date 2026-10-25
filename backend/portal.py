@@ -3,8 +3,17 @@ import secrets
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, FileResponse, Response
 from .parser import FORM_DIR, FORM_IDS, parse_form, validate_answers
+from .config import settings
+from .demo import validate_synthetic
+from .security import BodyLimitMiddleware
 
 app = FastAPI(title='Fictional local portals', docs_url=None, redoc_url=None)
+app.add_middleware(BodyLimitMiddleware, limit=20000)
+
+
+@app.get('/healthz')
+def health():
+    return {'status': 'ok', 'fictional': True}
 
 
 @app.middleware('http')
@@ -19,7 +28,10 @@ async def portal_headers(request: Request, call_next):
 def form(form_id: str):
     if form_id not in FORM_IDS:
         return HTMLResponse('<h1>Unsupported form</h1>', status_code=404)
-    return HTMLResponse((FORM_DIR / f'{form_id}.html').read_text(encoding='utf-8'))
+    source = (FORM_DIR / f'{form_id}.html').read_text(encoding='utf-8')
+    if settings().hosted:
+        source = source.replace('<main>', '<main><aside aria-label="Synthetic Demo"><strong>SYNTHETIC DEMO — sample answers only.</strong><p>This is a fictional practice portal hosted on Render. Do not enter personal information. No real organization receives this form.</p></aside>', 1)
+    return HTMLResponse(source)
 
 
 @app.post('/forms/{form_id}/submit', response_class=HTMLResponse)
@@ -31,6 +43,8 @@ async def submit(form_id: str, request: Request):
     values = dict(await request.form())
     if 'declaration' in values:
         values['declaration'] = values['declaration'] == 'on'
+    if settings().hosted:
+        validate_synthetic(form_id, values)
     errors = validate_answers(parse_form(form_id), values)
     if errors:
         return HTMLResponse('<h1>Check your application</h1><ul>' + ''.join(f'<li>{html.escape(k)}: {html.escape(v)}</li>' for k, v in errors.items()) + '</ul>', status_code=422)
