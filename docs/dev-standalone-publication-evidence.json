@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-10-25T18:48:10.213340+00:00",
+  "url": "https://dev.to/zedaina/the-internet-is-open-to-everyone-filling-out-its-forms-isnt-18l5",
+  "article_id": 4910363,
+  "author": "zedaina",
+  "title": "AccessPath: Clearer Forms, One Question at a Time",
+  "published_at": "2026-10-24T12:09:57Z",
+  "edited_at": "2026-10-25T18:44:34Z",
+  "page_http_status": 200,
+  "public_api_http_status": 200,
+  "tags": [
+    "devchallenge",
+    "hf26challenge",
+    "ai"
+  ],
+  "required_challenge_tags_present": true,
+  "youtube_id_expected": "odkNzMn_yWw",
+  "correct_youtube_embed": true,
+  "live_app_link_present": true,
+  "repository_link_present": true,
+  "section_order": [
+    "What I Built",
+    "Demo",
+    "Code",
+    "How I Built It",
+    "Why Does Open Innovation Matter?",
+    "The Lazy Payoff",
+    "Prize Categories"
+  ],
+  "section_order_correct": true,
+  "body_matches_prepared_article_except_image_hosting_and_whitespace": true,
+  "previous_project_wording": [],
+  "obsolete_video_present": false,
+  "screenshots": [
+    {
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk9z0bgwhgnti35awbk9t.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 101882,
+      "sha256": "c16b62bf5390903f1bd63e85b87079b2418e2093fac3bf836c455ad86d49d349"
+    },
+    {
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgx0s0zmqidujnzot3z82.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 112706,
+      "sha256": "86c7f37936cf0ea26ce7614c963ada360e9b8f308b681b77573eaca682d561b9"
+    },
+    {
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw2a7l32ss1n5grrqblqy.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 134462,
+      "sha256": "741fb3c4a0bd25668e2b95766dc0baa90c6a91bfc0c0cb1398a05294250083a8"
+    },
+    {
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F743ysjes2m63d60ufd9s.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 90268,
+      "sha256": "84d0a03702613c358d3e4577e9dce0ad231a660a02a1049ec1eb82f2ff032254"
+    },
+    {
+      "url": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fywf57e995xa8cjem1td6.png",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 58414,
+      "sha256": "874072ea0be6b874dc998e1cbb81fb8cecac079af3f0c24821f403cfa71daf9b"
+    }
+  ],
+  "authenticated_dev_changes": false,
+  "verification_scope": "Public HTML and official public DEV API, article text and link/embed presence, and successful image downloads. No authenticated DEV changes."
+}

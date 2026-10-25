@@ -14,9 +14,9 @@
 - [x] Embed `{% youtube odkNzMn_yWw %}` in the complete standalone post at `DEV_SUBMISSION.md`.
 - [x] Include the required section order, tags, actual live/repository links, genuine screenshots and implemented Best Use of Render integration.
 - [x] Remove revision history and pending-upload language from the article; describe AccessPath as a standalone project.
-- [ ] Author reviews the complete post and manually publishes it on DEV.
-- [ ] Verify the final public article after the author supplies its publication URL or confirms the manual update.
+- [x] Author manually published the complete standalone post and supplied its URL.
+- [x] Verify the public page/API, title, exact body apart from image hosting/whitespace, current video, all five screenshots, live app/repository links, required tags and section order. See `dev-standalone-publication-evidence.json`.
 
-`BUILD_PROMPT.md` requires the author to handle YouTube upload and DEV publication. The agent has made no authenticated DEV changes. Historical public-article evidence is kept separately and does not establish publication of this standalone Markdown.
+`BUILD_PROMPT.md` requires the author to handle YouTube upload and DEV publication. The agent has made no authenticated DEV changes. The standalone article is publicly verified at https://dev.to/zedaina/the-internet-is-open-to-everyone-filling-out-its-forms-isnt-18l5. All publication checkpoints are complete; verification does not guarantee contest eligibility or acceptance.
 
 Do not invent participants, model responses, timing savings, screenshots, links or challenge eligibility. No unsupported partner category is claimed.

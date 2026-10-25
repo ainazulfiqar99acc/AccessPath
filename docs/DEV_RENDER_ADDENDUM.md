@@ -1,4 +1,4 @@
-> Supporting deployment notes. The complete standalone post is [DEV_SUBMISSION.md](DEV_SUBMISSION.md). It embeds the verified 92-second public demo at https://youtu.be/odkNzMn_yWw and genuine hosted screenshots. Author review and manual publication remain.
+> Supporting deployment notes. The complete standalone post is [DEV_SUBMISSION.md](DEV_SUBMISSION.md). It embeds the verified 92-second public demo at https://youtu.be/odkNzMn_yWw and genuine hosted screenshots. The author published the standalone post; its public page/API and content are verified in `dev-standalone-publication-evidence.json`.
 
 ### AccessPath on Render
 
