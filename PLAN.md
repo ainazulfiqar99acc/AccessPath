@@ -20,14 +20,11 @@
 
 The user uploaded the refreshed video at https://youtu.be/VmlFZgN95ro. Playability, embedding, 118-second platform duration, and the current-theme thumbnail were verified. The complete article now embeds that video and verified current screenshots. The user published the article at https://dev.to/zedaina/the-internet-is-open-to-everyone-filling-out-its-forms-isnt-18l5. Public page/API checks verified its body, new video embed, six accessible screenshots, source link, and both required challenge tags. No publication checkpoints remain.
 
-## Render upgrade requested 25 October 2026
+## Render upgrade completed 25 October 2026
 
-The earlier publication above is complete. `update.txt` introduces a new deployment phase and requires approval before pushing, publishing, exposing services or creating paid resources.
-
-- Prepared a single-container Render architecture preserving the frontend, API, parser, forms, source guards, consent state machine and real portal automation. The public Python gateway serves the exported Next.js frontend and existing API; automation targets remain loopback-only.
-- Added hosted Qwen configuration, hosted privacy copy, fixed synthetic sample inputs, cookie ownership, temporary draft expiry, bounded anonymous usage, deadlines and readiness checks.
-- Added Dockerfile, Render Blueprint, secret configuration reference, deployment tests, actual-public recorder and gated article-addendum draft. See `docs/RENDER_DEPLOYMENT.md`.
-- Local verification: 40 backend tests, five original browser journeys with real local inference, three hosted UI journeys through a local HTTPS harness with real Groq inference in the free-runtime harness, production/export build, TypeScript and official Render schema validation passed. The harness is not public Render deployment evidence.
-- Pending approval/account configuration: push reviewed changes; create the Free public Render service. Then verify its actual URL, Linux image and hosted Qwen; run public checks, capture actual screenshots/video, generate hosted-aware narration, and finalize the Render addendum. No upgrade push or public resource creation has occurred.
-
-The user approved the GitHub push and public Free-service deployment. Verified Render workspace access and a real Groq source-only response; public rollout and Linux checks are now in progress.
+- Preserved the existing Next.js frontend, FastAPI logic, source parser, three fictional forms, Qwen/Ollama local mode, source guards, consent state machine and real portal automation.
+- Added the Free Render runtime: exported Next.js assets, public Python gateway/API, private loopback portal, Groq Free-tier Qwen, synthetic samples, cookie ownership, expiry, bounded usage and readiness checks.
+- Verification: 40 backend tests, five local browser journeys, production/static-export build and TypeScript passed. The actual public Linux deployment passed three further browser journeys including hosted inference, portal receipt, isolation, deletion, keyboard and mobile checks. Public selected-rule axe scans found zero violations.
+- User approved push and public Free deployment. Live URL: https://accesspath-demo.onrender.com. The API confirms Free compute and the 512 MiB limit; sampled memory reached about 324 MiB. No paid compute or credit promotion was used.
+- Recorded genuine public screenshots and a 91.92-second 1080p demo with Liam narration, 21 exact synchronized captions, matching audio/video durations and full decode passed. New assets are separate from the earlier published local demonstration.
+- Remaining user handoffs: upload the new Render video to YouTube, then review/update the existing DEV post using the prepared article/addendum. No automatic YouTube upload or DEV publication.

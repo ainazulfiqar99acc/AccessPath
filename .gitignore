@@ -23,4 +23,6 @@ demo/assets/video/*
 demo/assets/audio/*.wav
 demo/assets/audio/*.mp3
 demo/assets/render/video/
+demo/assets/render/audio/*.wav
+demo/assets/render/audio/*.mp3
 !.gitkeep

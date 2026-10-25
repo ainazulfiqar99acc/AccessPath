@@ -1,0 +1,33 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,34,&H00FFFFFF,&H00FFFFFF,&H001E0F08,&H001E0F08,0,0,0,0,100,100,0,0,1,1,0,2,60,60,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.62,0:00:03.77,Default,,0,0,0,,AccessPath is now live on Render.
+Dialogue: 0,0:00:03.80,0:00:07.37,Default,,0,0,0,,Explore fictional forms using synthetic\Nsample answers.
+Dialogue: 0,0:00:08.05,0:00:12.26,Default,,0,0,0,,The scholarship form is fictional, but its\Nlanguage is deliberately difficult.
+Dialogue: 0,0:00:12.29,0:00:15.05,Default,,0,0,0,,Here is the original source, before\Nguidance.
+Dialogue: 0,0:00:17.95,0:00:20.71,Default,,0,0,0,,Hosted Qwen explains source instructions\Nthrough Groq.
+Dialogue: 0,0:00:20.74,0:00:22.23,Default,,0,0,0,,Your answers are excluded.
+Dialogue: 0,0:00:22.26,0:00:24.66,Default,,0,0,0,,Compare each suggestion with the original.
+Dialogue: 0,0:00:25.33,0:00:26.88,Default,,0,0,0,,Confirm the source checklist.
+Dialogue: 0,0:00:26.91,0:00:28.72,Default,,0,0,0,,No documents are uploaded.
+Dialogue: 0,0:00:29.41,0:00:32.62,Default,,0,0,0,,Use the supplied sample answers, one\Nquestion at a time.
+Dialogue: 0,0:00:32.65,0:00:35.35,Default,,0,0,0,,Choices and required fields follow the\Nsource.
+Dialogue: 0,0:00:35.38,0:00:38.73,Default,,0,0,0,,This public demo accepts synthetic details\Nonly.
+Dialogue: 0,0:00:47.73,0:00:49.77,Default,,0,0,0,,The statement keeps the source limits.
+Dialogue: 0,0:00:49.80,0:00:54.48,Default,,0,0,0,,Sample text demonstrates completion without\Ncollecting a real applicant's story.
+Dialogue: 0,0:00:55.50,0:00:56.94,Default,,0,0,0,,Review before sending.
+Dialogue: 0,0:00:56.97,0:00:59.93,Default,,0,0,0,,The submit button stays disabled until you\Nconfirm.
+Dialogue: 0,0:00:59.96,0:01:03.12,Default,,0,0,0,,Editing an answer invalidates that\Nconfirmation.
+Dialogue: 0,0:01:15.77,0:01:18.80,Default,,0,0,0,,A real browser submits only the private\Nfictional portal.
+Dialogue: 0,0:01:18.83,0:01:23.21,Default,,0,0,0,,This receipt confirms the demo action,\Nwithout contacting a real agency.
+Dialogue: 0,0:01:23.95,0:01:27.62,Default,,0,0,0,,Synthetic drafts stay temporarily on Render,\Nnot on your device.
+Dialogue: 0,0:01:27.65,0:01:30.80,Default,,0,0,0,,Delete your draft and activity, or let it\Nexpire.

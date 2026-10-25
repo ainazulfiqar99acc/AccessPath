@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-10-25T17:27:25.971Z",
+  "public_url": "https://accesspath-demo.onrender.com",
+  "synthetic_only": true,
+  "markers": {
+    "opening": 1.256,
+    "original": 7.674,
+    "evidence": 17.593,
+    "preparation": 24.974,
+    "questions": 29.034,
+    "statement": 47.359,
+    "confirmation": 55.123,
+    "receipt": 75.411,
+    "privacy": 83.548
+  },
+  "receipt": "AP-F3B241D4A7",
+  "deleted": true,
+  "inference": {
+    "fields": [
+      {
+        "field_id": "full_name",
+        "plain_label": "Full name",
+        "explanation": "Enter your full name as shown on your student record. Maximum 80 characters."
+      },
+      {
+        "field_id": "email",
+        "plain_label": "Email address",
+        "explanation": "Use an email address where you can receive updates."
+      },
+      {
+        "field_id": "study_level",
+        "plain_label": "Study level",
+        "explanation": "Choose the level of the course you currently attend."
+      },
+      {
+        "field_id": "enrollment",
+        "plain_label": "Student reference",
+        "explanation": "Enter your student reference. Use 4 to 20 letters, numbers or hyphens."
+      },
+      {
+        "field_id": "has_support",
+        "plain_label": "Other funding",
+        "explanation": "Tell us whether you currently receive other education funding."
+      },
+      {
+        "field_id": "support_details",
+        "plain_label": "Funding provider",
+        "explanation": "If you receive other funding, name the provider. Maximum 200 characters."
+      },
+      {
+        "field_id": "statement",
+        "plain_label": "Study statement",
+        "explanation": "Describe what you want to learn and how this support would help. Use 20 to 600 characters. Do not include medical or financial account details."
+      },
+      {
+        "field_id": "declaration",
+        "plain_label": "Accuracy confirmation",
+        "explanation": "Confirm the information you entered is accurate for this fictional demonstration."
+      }
+    ],
+    "model": "qwen/qwen3.8-27b",
+    "provider": "groq",
+    "local": false,
+    "model_digest": null,
+    "source_hash": "129fe4fe1c163956fc4a54640878150003dff565b42058262ecaa7ca8a338763",
+    "seconds": 1.33,
+    "eval_count": null,
+    "cached": true,
+    "verification": "Field IDs, new numbers and selected unsupported claims checked. Wording still needs human review."
+  },
+  "full_decode_passed": true,
+  "narration_status": "Complete: selected Liam voice, 21 synchronized captions, full decode and audio checks passed.",
+  "final_duration_seconds": 91.92,
+  "lead_trim_seconds": 0,
+  "trim_note": "Only initial page-loading lead removed; no inference or submission waiting time removed.",
+  "final_narrated_video": "demo/assets/render/video/final_demo.mp4"
+}

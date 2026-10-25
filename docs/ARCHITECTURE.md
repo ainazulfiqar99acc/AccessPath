@@ -1,6 +1,6 @@
 # Architecture
 
-The local workflow below remains supported. The prepared Render mode adds a separate deployment configuration; its public deployment is still pending authorization and live verification. See [deployment review](RENDER_DEPLOYMENT.md).
+The local workflow below remains supported. The Render mode is live at https://accesspath-demo.onrender.com and passed the actual public browser journeys. See [deployment review](RENDER_DEPLOYMENT.md).
 
 ```mermaid
 flowchart LR
@@ -74,4 +74,4 @@ Hosted drafts have a hashed random browser-cookie owner and fixed expiry, with c
 
 SQLite-backed rate counters, draft-count limits, a bounded ASGI body reader, one inference lock and one browser lock limit the anonymous demo. Groq requests use at most 900 output tokens and one uncached request per minute to suit the observed free quota; exhaustion is a clear 429, without a paid fallback. Source-only checked explanations are cached.
 
-The Blueprint uses Free compute and one instance. `deploy/start.py` supervises the public Python web process and private portal process; only the API/web child receives the inference key. `/api/readyz` checks storage and the private portal without inference. `/api/health` distinguishes configured provider access from a checked response observed in the process. Actual Linux 512 MB peak memory still needs verification on Render. Spin-down and restarts can discard the temporary SQLite data.
+The Blueprint uses Free compute and one instance. `deploy/start.py` supervises the public Python web process and private portal process; only the API/web child receives the inference key. `/api/readyz` checks storage and the private portal without inference. `/api/health` distinguishes configured provider access from a checked response observed in the process. The actual Linux Free instance completed the public journeys within its reported 512 MiB limit. Render's 30-second samples reached about 324 MiB; that is not an instantaneous peak or a multi-user capacity claim. Spin-down and restarts can discard the temporary SQLite data.

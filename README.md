@@ -4,13 +4,13 @@
 
 [Public repository: ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath)
 
-**Render upgrade:** a hosted Synthetic Demo mode is prepared locally, with Docker/Blueprint configuration, browser-bound drafts, expiry, sample-only inputs, a Next.js static export and a Groq Free-tier Qwen adapter. The user approved the GitHub push and public Free-service deployment. Rollout and public verification are in progress; no paid resource is authorized. See the [deployment review](docs/RENDER_DEPLOYMENT.md) for the architecture, Free-plan limits, configuration and remaining live checks. No public application URL is claimed.
+**Try the live Synthetic Demo:** [accesspath-demo.onrender.com](https://accesspath-demo.onrender.com). It runs on Render Free with the Next.js frontend exported into the Python web service, real hosted Groq/Qwen explanations, and actual confirmed browser submission to the private fictional portal. Use the supplied sample answers only. Hosted drafts are temporary server data, isolated by browser cookie, and expire within two hours; free-service sleep/restarts can remove them sooner. See [deployment notes](docs/RENDER_DEPLOYMENT.md) and [verified public evidence](docs/render-deployment-evidence.json).
 
 AccessPath turns three deliberately confusing, **fictional local forms** into an accessible guided workflow. It reads actual HTML evidence, uses a local Qwen model to simplify the wording, keeps the originals beside the suggestions, and checks answers against the source constraints. A real Playwright browser fills and submits the fictional portal only after explicit confirmation.
 
-The interface has been redesigned throughout with a midnight-blue palette, horizontal navigation, form rows, blue-and-amber controls, and responsive reading preferences. The current screenshots below show that design.
+The interface has been redesigned throughout with a midnight-blue palette, horizontal navigation, form rows, blue-and-amber controls, and responsive reading preferences. The screenshot below shows that design in the live hosted mode.
 
-![The actual AccessPath workspace](demo/assets/screenshots/workspace.png)
+![The actual public Render workspace and Synthetic Demo notice](demo/assets/render/screenshots/workspace.png)
 
 ## Run on Windows
 
@@ -106,3 +106,9 @@ Qwen3 weights use [Apache 2.0](https://huggingface.co/Qwen/Qwen3-8B/blob/main/LI
 ## Publication status
 
 The application, genuine screenshots, and narrated video are complete. The user selected Liam for narration and approved publication under [ainazulfiqar99acc/AccessPath](https://github.com/ainazulfiqar99acc/AccessPath), which is public on branch `main`. Source and genuine screenshots are published; local data, credentials, model files, and generated audio/video remain excluded. The user completed the YouTube handoff. The user published the [DEV challenge article](https://dev.to/zedaina/the-internet-is-open-to-everyone-filling-out-its-forms-isnt-18l5). The live post, current video embed, six accessible screenshots, source link, and required challenge tags were verified. See the [publication checklist](docs/PUBLISHING_CHECKLIST.md) and [verification evidence](docs/dev-publication-evidence.json).
+
+## Render demo and article update
+
+The new recording comes from the real public Render application: `demo/assets/render/video/final_demo.mp4`, 91.92 seconds, 1080p, Liam narration and 21 synchronized captions. Its narration discloses temporary hosted storage and source-only external inference. Full decode, matching audio/video durations, caption coverage and audio checks passed. The generated video remains local and ignored by Git. The earlier YouTube video above shows the local version; a user-uploaded Render video URL is still pending.
+
+[Render article addendum](docs/DEV_RENDER_ADDENDUM.md) is prepared for user review. The existing published DEV post has not been edited by the agent. The Free service is verified for the recorded single-user journeys, not certified for general accessibility conformance or production load. Render memory samples reached about 324 MiB against an approximately 512 MiB limit; 30-second sampling does not establish an instantaneous peak.

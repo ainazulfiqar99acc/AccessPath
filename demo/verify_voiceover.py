@@ -1,5 +1,6 @@
 """Verify the actual final audio/video/caption artifacts without touching services."""
 from array import array
+import argparse
 import json
 from pathlib import Path
 import re
@@ -21,6 +22,13 @@ def words(text):
 
 
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--asset-root',default='demo/assets')
+    args=parser.parse_args()
+    assets=(ROOT/args.asset_root).resolve()
+    if not assets.is_relative_to(ROOT):raise SystemExit('Demo assets must stay inside the project.')
+    AUDIO=assets/'audio'
+    VIDEO=assets/'video/final_demo.mp4'
     timeline=json.loads((AUDIO/'narration_timeline.json').read_text(encoding='utf-8'))
     manifest=json.loads((AUDIO/'voiceover-evidence.json').read_text(encoding='utf-8'))
     assert manifest['voice']=='am_liam' and manifest['voice_selected_by']=='user'

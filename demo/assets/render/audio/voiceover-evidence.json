@@ -1,0 +1,105 @@
+{
+  "voice": "am_liam",
+  "voice_display_name": "Liam",
+  "voice_selected_by": "user",
+  "repo": "hexgrad/Kokoro-82M",
+  "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "engine": "kokoro",
+  "engine_version": "0.9.4",
+  "torch": "2.8.0+cpu",
+  "device": "cpu",
+  "threads": 2,
+  "model_sha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+  "voice_sha256": "c82550757ddb31308b97f30040dda8c2d609a9e2de6135848d0a948368138518",
+  "timeline_sha256": "010672f9a5073cf6e60f4afeab8d92b36ef1a3c6621725ab0ed073fee24f3bca",
+  "video_seconds": 91.92,
+  "assembly_wall_seconds": 36.26,
+  "scenes": [
+    {
+      "id": "opening",
+      "start": 1.406,
+      "end": 7.474,
+      "text": "AccessPath is now live on Render. Explore fictional forms using synthetic sample answers.",
+      "natural_seconds": 6.25,
+      "tempo_factor": 1.050773,
+      "audio_end": 7.366
+    },
+    {
+      "id": "original",
+      "start": 7.824,
+      "end": 17.393,
+      "text": "The scholarship form is fictional, but its language is deliberately difficult. Here is the original source, before guidance.",
+      "natural_seconds": 7.225,
+      "tempo_factor": 1.0,
+      "audio_end": 15.049
+    },
+    {
+      "id": "evidence",
+      "start": 17.743,
+      "end": 24.774,
+      "text": "Hosted Qwen explains source instructions through Groq. Your answers are excluded. Compare each suggestion with the original.",
+      "tts_text": "Hosted [Qwen](/kw\u02c8\u025bn/) explains source instructions through Groq. Your answers are excluded. Compare each suggestion with the original.",
+      "natural_seconds": 7.425,
+      "tempo_factor": 1.074374,
+      "audio_end": 24.661
+    },
+    {
+      "id": "preparation",
+      "start": 25.124,
+      "end": 28.834,
+      "text": "Confirm the source checklist. No documents are uploaded.",
+      "natural_seconds": 3.95,
+      "tempo_factor": 1.100279,
+      "audio_end": 28.723
+    },
+    {
+      "id": "questions",
+      "start": 29.184,
+      "end": 47.159,
+      "text": "Use the supplied sample answers, one question at a time. Choices and required fields follow the source. This public demo accepts synthetic details only.",
+      "natural_seconds": 9.55,
+      "tempo_factor": 1.0,
+      "audio_end": 38.734
+    },
+    {
+      "id": "statement",
+      "start": 47.509,
+      "end": 54.923,
+      "text": "The statement keeps the source limits. Sample text demonstrates completion without collecting a real applicant's story.",
+      "natural_seconds": 6.975,
+      "tempo_factor": 1.0,
+      "audio_end": 54.484
+    },
+    {
+      "id": "confirmation",
+      "start": 55.273,
+      "end": 75.211,
+      "text": "Review before sending. The submit button stays disabled until you confirm. Editing an answer invalidates that confirmation.",
+      "natural_seconds": 7.85,
+      "tempo_factor": 1.0,
+      "audio_end": 63.123
+    },
+    {
+      "id": "receipt",
+      "start": 75.561,
+      "end": 83.348,
+      "text": "A real browser submits only the private fictional portal. This receipt confirms the demo action, without contacting a real agency.",
+      "natural_seconds": 8.3,
+      "tempo_factor": 1.082562,
+      "audio_end": 83.211
+    },
+    {
+      "id": "privacy",
+      "start": 83.698,
+      "end": 91.62,
+      "text": "Synthetic drafts stay temporarily on Render, not on your device. Delete your draft and activity, or let it expire.",
+      "natural_seconds": 7.1,
+      "tempo_factor": 1.0,
+      "audio_end": 90.798
+    }
+  ],
+  "caption_count": 21,
+  "subtitle_source": "Kokoro model-derived token durations, adjusted for scene pacing",
+  "voice_engine_mentioned_in_narration": false,
+  "final_video_decode_verified": true
+}

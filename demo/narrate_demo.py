@@ -95,8 +95,12 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--voice', required=True)
     parser.add_argument('--audio-only', action='store_true')
+    parser.add_argument('--asset-root', default='demo/assets', help='Project-relative demo assets directory.')
     args = parser.parse_args()
-    timeline_path = ROOT / 'demo/assets/audio/narration_timeline.json'
+    assets = (ROOT / args.asset_root).resolve()
+    if not assets.is_relative_to(ROOT):
+        raise SystemExit('Demo assets must stay inside the project.')
+    timeline_path = assets / 'audio/narration_timeline.json'
     timeline = json.loads(timeline_path.read_text(encoding='utf-8'))
     if args.voice != timeline['voice'] or timeline['voice_selected_by'] != 'user':
         raise SystemExit('The voice must match the explicit user selection saved in the timeline.')
@@ -127,7 +131,8 @@ def main():
     combined = np.zeros(round(duration * sample_rate), dtype=np.float32)
     work = ROOT / '.tools/narration' / args.voice
     work.mkdir(parents=True, exist_ok=True)
-    audio_root = ROOT / 'demo/assets/audio'
+    audio_root = assets / 'audio'
+    audio_root.mkdir(parents=True, exist_ok=True)
     scenes, captions = [], []
     for scene in timeline['scenes']:
         synthesis_text = scene.get('tts_text',scene['text'])
@@ -222,9 +227,9 @@ def main():
     if not args.audio_only:
         vf = ("scale=1920:976:force_original_aspect_ratio=decrease,"
               "pad=1920:1080:(ow-iw)/2:0:color=0x080F1E,"
-              "subtitles=demo/assets/audio/subtitles.ass")
-        final_video = ROOT / 'demo/assets/video/final_demo.mp4'
-        command(['ffmpeg','-v','error','-y','-i','demo/assets/video/demo_silent.mp4',
+              f"subtitles={(audio_root/'subtitles.ass').relative_to(ROOT).as_posix()}")
+        final_video = assets / 'video/final_demo.mp4'
+        command(['ffmpeg','-v','error','-y','-i',str(assets/'video/demo_silent.mp4'),
                  '-i',str(final_audio),'-i',str(subtitles),'-map','0:v:0','-map','1:a:0','-map','2:s:0',
                  '-vf',vf,'-c:v','libx264','-preset','fast','-crf','20','-pix_fmt','yuv420p',
                  '-threads','2','-c:a','aac','-b:a','192k','-c:s','mov_text',
@@ -241,7 +246,7 @@ def main():
                 'caption_count':len(captions),'subtitle_source':'Kokoro model-derived token durations, adjusted for scene pacing',
                 'voice_engine_mentioned_in_narration':False,'final_video_decode_verified':not args.audio_only}
     (audio_root/'voiceover-evidence.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
-    print(f'Generated narration, {len(captions)} timed captions, and final video: demo/assets/video/final_demo.mp4',flush=True)
+    print(f'Generated narration, {len(captions)} timed captions, and final video: {assets / "video/final_demo.mp4"}',flush=True)
 
 
 if __name__=='__main__':

@@ -32,8 +32,8 @@ The earlier local-project publication is complete. `update.txt` requests a new r
 - [x] Pass local backend/browser/production/schema checks; distinguish provider test doubles from actual hosted evidence.
 - [x] Prepare deployment review, public browser tests/recorder and gated DEV addendum.
 - [x] User approved pushing changes and creating the public Free service in Aina's workspace. No paid upgrade or paid resource was authorized.
-- [ ] Configure the selected Render account and server-side Groq token securely.
-- [ ] Build/deploy the Linux image and verify the actual public Render URL and live hosted Qwen.
-- [ ] Run public submission/deletion, isolation, keyboard, mobile and accessibility checks.
-- [ ] Capture actual Render screenshots/video and generate narration describing hosted storage/inference.
+- [x] Configure the selected Render account and server-side Groq token securely.
+- [x] Build/deploy the Linux image; verify https://accesspath-demo.onrender.com, Free compute, and real hosted Qwen.
+- [x] Run public submission/deletion, isolation, keyboard, mobile and selected-rule accessibility checks: all three journeys passed.
+- [x] Capture actual Render screenshots/video and generate verified Liam narration describing hosted storage/inference.
 - [ ] Review and approve further pushes, media handoff and the live DEV addendum under the new publication rules.

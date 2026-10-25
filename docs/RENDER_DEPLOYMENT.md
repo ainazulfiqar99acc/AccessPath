@@ -1,6 +1,6 @@
 # Free Render deployment review
 
-Status: prepared locally for the Free web-service compute plan on a Hobby workspace. No promotion or credit grant is required by the configuration. The user supplied Render and Groq credentials; Render account access and real Groq inference have been verified. The user approved pushing the upgrade and creating the public Free service; rollout and public verification are in progress. No public application URL is claimed.
+Status: **live and verified** at https://accesspath-demo.onrender.com on Render Free. The user approved the push and public deployment. The actual Linux Docker instance passed readiness, real hosted Qwen, all three public browser journeys, source/consent/portal receipt, isolation/deletion, keyboard and mobile checks. See `render-deployment-evidence.json`.
 
 ## Architecture
 
@@ -23,7 +23,7 @@ The automation allowlist remains private: only the configured HTTP loopback orig
 
 The Blueprint specifies `plan: free`, one instance and auto-deploys off. The Hobby workspace subscription is $0; Free web-service compute is also $0 within Render's allowances. No paid database, disk or compute resource is requested. Credits have been excluded at the user's request.
 
-Render Free currently provides 512 MB RAM and 0.1 CPU. It spins down after 15 minutes without inbound traffic and may take about a minute to wake. SQLite contents are lost on spin-down, restart or redeploy. This is a synthetic challenge demo, not a durable or continuously available application. Actual peak memory and complete flow on Render's Linux instance must still be verified. Removing Node reduces the runtime footprint but is not proof that Chromium fits every workload within 512 MB.
+Render Free currently provides 512 MB RAM and 0.1 CPU. It spins down after 15 minutes without inbound traffic and may take about a minute to wake. SQLite contents are lost on spin-down, restart or redeploy. This is a synthetic challenge demo, not a durable or continuously available application. The complete flow passed on Render's actual Linux Free instance. Render's 30-second samples reached about 324 MiB against its approximately 512 MiB limit. This is not a continuous peak measurement or a production load test.
 
 The previously considered Hugging Face router now requires purchased credits for Free accounts, so it is not the default. Its explicitly selected adapter remains optional, with no automatic fallback. The prepared default uses Groq's documented Free tier. Keep the Groq account on Free; do not enable a paid Developer upgrade. Quota exhaustion produces a clear 429 error while original source guidance stays available. No provider account is upgraded by the application.
 
@@ -58,7 +58,7 @@ Startup fails if the export, safeguards, provider configuration or token are mis
 
 ## Deployment after approval
 
-1. Review the local diff and approve the GitHub push and public Free-service deployment. The supplied API keys authorize account/inference checks; no public service has been created yet.
+1. Review the local diff and approve the GitHub push and public Free-service deployment. For this deployment the user approved both steps, and the existing Free service is now live. Inspect it before creating any additional service.
 2. Use the verified Render workspace and check for an existing `accesspath-demo` service before creation. The initial inspection found no matching service.
 3. Push the approved configuration to `ainazulfiqar99acc/AccessPath`, then apply `render.yaml` or create an equivalent Docker web service with the Free compute plan. Set the Groq key securely.
 4. Wait for the actual Linux build and health check. Record Render's real assigned URL, without guessing it.
@@ -83,9 +83,13 @@ The Render browser suite covers inference, sample values, original-source compar
 
 The public recorder refuses local/test URLs. It captures actual Render screenshots, source inspection, generated explanations, guided completion, consent, receipt and deletion, then encodes and fully decodes the new recording. It preserves the existing published local demo. A new Liam narration must describe hosted storage/inference accurately; the earlier narration is not reused as a claim that hosted data stays local.
 
-## Remaining evidence
+## Public evidence and remaining handoff
 
-No public Render URL, Linux container execution, 512 MB memory result, public screenshots or new public video is claimed yet. The local Docker Linux engine was unavailable and was not started. The existing published article/video describe the earlier local implementation. `DEV_RENDER_ADDENDUM.md` stays a review draft until real public deployment/media are verified; the live post is not edited automatically.
+Render deployment `dep-dbf128o473hc73bfuqp0` is live from source commit `82d76d8c2d7b20dbc487843df9f05f2f8cecfafe`. Public API checks returned 200, all 18 source fields load, and the checked Groq scholarship explanation is reusable from the source cache. The three public browser tests passed in 48.2 seconds; selected-rule axe scans of analysis, review and mobile/reading-preference views found zero violations. Automated checks are not WCAG certification.
+
+The actual public recording is complete at `demo/assets/render/video/final_demo.mp4`: 91.92 seconds, 1920x1080, Liam narration, 21 exact synchronized captions, matching audio/video durations, zero clipped PCM samples, and full decode passed. Audio measured -16.16 LUFS and -1.35 dBTP. Genuine screenshots and recording/voice evidence are under `demo/assets/render/`. The source explanation in the recording is a checked cache hit from real Groq inference, not a fabricated or manually substituted response.
+
+The earlier local YouTube demo is preserved. A new Render video upload remains a user handoff under `BUILD_PROMPT.md`; no YouTube account is selected or upload performed automatically. The Render addendum and article changes are prepared for review, and the live DEV post has not been edited by the agent.
 
 ## Primary references checked 25 October 2026
 

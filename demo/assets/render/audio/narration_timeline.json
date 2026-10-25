@@ -1,0 +1,66 @@
+{
+  "voice": "am_liam",
+  "voice_display_name": "Liam",
+  "voice_selected_by": "user",
+  "sample_rate": 24000,
+  "video_duration": 91.92,
+  "public_url": "https://accesspath-demo.onrender.com",
+  "theme": "midnight-blue-hosted",
+  "scenes": [
+    {
+      "id": "opening",
+      "start": 1.406,
+      "end": 7.474,
+      "text": "AccessPath is now live on Render. Explore fictional forms using synthetic sample answers."
+    },
+    {
+      "id": "original",
+      "start": 7.824,
+      "end": 17.393,
+      "text": "The scholarship form is fictional, but its language is deliberately difficult. Here is the original source, before guidance."
+    },
+    {
+      "id": "evidence",
+      "start": 17.743,
+      "end": 24.774,
+      "text": "Hosted Qwen explains source instructions through Groq. Your answers are excluded. Compare each suggestion with the original.",
+      "tts_text": "Hosted [Qwen](/kwˈɛn/) explains source instructions through Groq. Your answers are excluded. Compare each suggestion with the original."
+    },
+    {
+      "id": "preparation",
+      "start": 25.124,
+      "end": 28.834,
+      "text": "Confirm the source checklist. No documents are uploaded."
+    },
+    {
+      "id": "questions",
+      "start": 29.184,
+      "end": 47.159,
+      "text": "Use the supplied sample answers, one question at a time. Choices and required fields follow the source. This public demo accepts synthetic details only."
+    },
+    {
+      "id": "statement",
+      "start": 47.509,
+      "end": 54.923,
+      "text": "The statement keeps the source limits. Sample text demonstrates completion without collecting a real applicant's story."
+    },
+    {
+      "id": "confirmation",
+      "start": 55.273,
+      "end": 75.211,
+      "text": "Review before sending. The submit button stays disabled until you confirm. Editing an answer invalidates that confirmation."
+    },
+    {
+      "id": "receipt",
+      "start": 75.561,
+      "end": 83.348,
+      "text": "A real browser submits only the private fictional portal. This receipt confirms the demo action, without contacting a real agency."
+    },
+    {
+      "id": "privacy",
+      "start": 83.698,
+      "end": 91.62,
+      "text": "Synthetic drafts stay temporarily on Render, not on your device. Delete your draft and activity, or let it expire."
+    }
+  ]
+}

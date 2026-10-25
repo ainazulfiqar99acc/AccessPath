@@ -1,0 +1,36 @@
+{
+  "video": "G:\\Hacktoberfest-2026-Week3\\03-AccessPath\\demo\\assets\\render\\video\\final_demo.mp4",
+  "voice": "Liam",
+  "audio_seconds": 91.92,
+  "captions": 21,
+  "caption_words_match_script": true,
+  "caption_overlap": false,
+  "punctuation_only_captions": false,
+  "voice_tool_named_in_spoken_script_or_captions": false,
+  "pcm_clipped_samples": 0,
+  "integrated_lufs": -16.16,
+  "true_peak_dbtp": -1.35,
+  "full_decode_passed": true,
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "duration": "91.920000"
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 1,
+      "duration": "91.920000"
+    },
+    {
+      "codec_name": "mov_text",
+      "codec_type": "subtitle",
+      "duration": "90.798000"
+    }
+  ],
+  "file_bytes": 4240186
+}

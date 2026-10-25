@@ -1,0 +1,138 @@
+{
+  "checked_at": "2026-10-25T17:34:39.134035+00:00",
+  "public_url": "https://accesspath-demo.onrender.com",
+  "service_id": "srv-dbf1280473hc73bfup6g",
+  "service_name": "accesspath-demo",
+  "plan": "free",
+  "region": "singapore",
+  "runtime": "docker",
+  "auto_deploy": "off",
+  "deploy_id": "dep-dbf128o473hc73bfuqp0",
+  "deploy_status": "live",
+  "deployed_commit": "82d76d8c2d7b20dbc487843df9f05f2f8cecfafe",
+  "linux_container_executed": true,
+  "public_api": {
+    "checked_at": "2026-10-25T17:30:38.715633+00:00",
+    "public_url": "https://accesspath-demo.onrender.com",
+    "health_status": 200,
+    "readiness_status": 200,
+    "health": {
+      "status": "ok",
+      "model": {
+        "ready": true,
+        "model": "qwen/qwen3.8-27b",
+        "busy": false,
+        "local": false,
+        "provider": "groq",
+        "digest": null,
+        "verified": true,
+        "detail": "Hosted Qwen returned checked explanations in this process."
+      },
+      "portal_url": "https://accesspath-demo.onrender.com",
+      "deployment": {
+        "mode": "hosted",
+        "synthetic_only": true,
+        "draft_ttl_seconds": 7200,
+        "storage": "Temporary server storage on Render",
+        "inference": "Groq receives fictional form instructions only"
+      }
+    },
+    "forms_count": 3,
+    "source_fields_count": 18,
+    "explanation": {
+      "fields": [
+        {
+          "field_id": "full_name",
+          "plain_label": "Full name",
+          "explanation": "Enter your full name as shown on your student record. Maximum 80 characters."
+        },
+        {
+          "field_id": "email",
+          "plain_label": "Email address",
+          "explanation": "Use an email address where you can receive updates."
+        },
+        {
+          "field_id": "study_level",
+          "plain_label": "Study level",
+          "explanation": "Choose the level of the course you currently attend."
+        },
+        {
+          "field_id": "enrollment",
+          "plain_label": "Student reference",
+          "explanation": "Enter your student reference. Use 4 to 20 letters, numbers or hyphens."
+        },
+        {
+          "field_id": "has_support",
+          "plain_label": "Other funding",
+          "explanation": "Tell us whether you currently receive other education funding."
+        },
+        {
+          "field_id": "support_details",
+          "plain_label": "Funding provider",
+          "explanation": "If you receive other funding, name the provider. Maximum 200 characters."
+        },
+        {
+          "field_id": "statement",
+          "plain_label": "Study statement",
+          "explanation": "Describe what you want to learn and how this support would help. Use 20 to 600 characters. Do not include medical or financial account details."
+        },
+        {
+          "field_id": "declaration",
+          "plain_label": "Accuracy confirmation",
+          "explanation": "Confirm the information you entered is accurate for this fictional demonstration."
+        }
+      ],
+      "model": "qwen/qwen3.8-27b",
+      "provider": "groq",
+      "local": false,
+      "model_digest": null,
+      "source_hash": "129fe4fe1c163956fc4a54640878150003dff565b42058262ecaa7ca8a338763",
+      "seconds": 1.33,
+      "eval_count": null,
+      "cached": true,
+      "verification": "Field IDs, new numbers and selected unsupported claims checked. Wording still needs human review."
+    }
+  },
+  "public_browser_tests": {
+    "startTime": "2026-10-25T17:23:47.127Z",
+    "duration": 48217.989,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "public_selected_wcag_violations": {
+    "analysis": 0,
+    "mobile-large-contrast": 0,
+    "review": 0
+  },
+  "wcag_certification": false,
+  "memory": {
+    "sampled_max_bytes": 339480580,
+    "reported_limit_bytes": 536870900,
+    "resolution_seconds": 30,
+    "qualification": "Sampled measurements, not an instantaneous peak or a multi-user load test."
+  },
+  "recorded_portal_receipt": "AP-F3B241D4A7",
+  "recorded_draft_deleted": true,
+  "hosted_demo": {
+    "file": "demo/assets/render/video/final_demo.mp4",
+    "seconds": 91.92,
+    "width": 1920,
+    "height": 1080,
+    "voice": "Liam",
+    "captions": 21,
+    "full_decode_passed": true,
+    "caption_words_match_script": true,
+    "integrated_lufs": -16.16,
+    "true_peak_dbtp": -1.35
+  },
+  "render_video_youtube_url": null,
+  "dev_post_updated_by_agent": false,
+  "limitations": [
+    "Free service may sleep after 15 idle minutes and lose temporary drafts.",
+    "Drafts contain fixed synthetic samples only.",
+    "Groq Free quota is finite; no paid fallback or upgrade is automatic.",
+    "No account login, cross-device recovery or encrypted application database."
+  ]
+}

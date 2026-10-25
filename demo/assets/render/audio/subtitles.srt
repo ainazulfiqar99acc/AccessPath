@@ -1,0 +1,97 @@
+1
+00:00:01,620 --> 00:00:03,767
+AccessPath is now live on Render.
+
+2
+00:00:03,797 --> 00:00:07,366
+Explore fictional forms using synthetic
+sample answers.
+
+3
+00:00:08,049 --> 00:00:12,256
+The scholarship form is fictional, but its
+language is deliberately difficult.
+
+4
+00:00:12,286 --> 00:00:15,049
+Here is the original source, before
+guidance.
+
+5
+00:00:17,952 --> 00:00:20,715
+Hosted Qwen explains source instructions
+through Groq.
+
+6
+00:00:20,745 --> 00:00:22,227
+Your answers are excluded.
+
+7
+00:00:22,257 --> 00:00:24,661
+Compare each suggestion with the original.
+
+8
+00:00:25,328 --> 00:00:26,878
+Confirm the source checklist.
+
+9
+00:00:26,908 --> 00:00:28,723
+No documents are uploaded.
+
+10
+00:00:29,409 --> 00:00:32,617
+Use the supplied sample answers, one
+question at a time.
+
+11
+00:00:32,647 --> 00:00:35,354
+Choices and required fields follow the
+source.
+
+12
+00:00:35,384 --> 00:00:38,734
+This public demo accepts synthetic details
+only.
+
+13
+00:00:47,734 --> 00:00:49,766
+The statement keeps the source limits.
+
+14
+00:00:49,796 --> 00:00:54,484
+Sample text demonstrates completion without
+collecting a real applicant's story.
+
+15
+00:00:55,498 --> 00:00:56,943
+Review before sending.
+
+16
+00:00:56,973 --> 00:00:59,930
+The submit button stays disabled until you
+confirm.
+
+17
+00:00:59,960 --> 00:01:03,123
+Editing an answer invalidates that
+confirmation.
+
+18
+00:01:15,769 --> 00:01:18,799
+A real browser submits only the private
+fictional portal.
+
+19
+00:01:18,829 --> 00:01:23,211
+This receipt confirms the demo action,
+without contacting a real agency.
+
+20
+00:01:23,948 --> 00:01:27,618
+Synthetic drafts stay temporarily on Render,
+not on your device.
+
+21
+00:01:27,648 --> 00:01:30,798
+Delete your draft and activity, or let it
+expire.
